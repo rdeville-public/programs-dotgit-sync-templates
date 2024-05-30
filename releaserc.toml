@@ -45,14 +45,14 @@ prerelease_token = "rc"
 prerelease = true
 
 [semantic_release.commit_author]
-env = "GITLAB_SEMANTIC_RELEASE_AUTHOR"
+env = "SEMANTIC_RELEASE_AUTHOR"
 default = "Python Semantic Release [bot] <code+bot.release@romaindeville.fr>"
 
 [semantic_release.remote]
 name = "origin"
 type = "gitlab"
 domain = "framagit.org"
-token = { "env" = "GITLAB_SEMANTIC_RELEASE_TOKEN" }
+token = { "env" = "PYTHON_SEMANTIC_RELEASE_TOKEN" }
 
 # [semantic_release.publish]
 # dist_glob_patterns = ["dist/*"]
