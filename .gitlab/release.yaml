@@ -30,7 +30,7 @@
       # Do not run otherwise
     - when: never
 
-"Generate Changelog, Tag and Release":
+"Tag and Release":
   image: alpine:latest
   stage: release
   needs:
@@ -40,6 +40,7 @@
   script:
       # Avoid being in detached state
     - git switch "${CI_DEFAULT_BRANCH}"
+    - git remote set-url origin "https://gitlab-ci-token:${DOTGIT_SYNC_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}"
     - semantic-release
         -c releaserc.toml
         version
