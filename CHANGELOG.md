@@ -1,6 +1,18 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.1.1 (2024-06-02)
+
+### 🩹 Patch
+
+  * 🐛 Fix template (CI) of semantic-relase (!9) by @Romain Deville ([`9293037`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/929303710cdae678f4d01eee96c41463d65c4942))
+  * 🐛 Fix semantic release template by @Romain Deville ([`1e8cd9d`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/1e8cd9d68472733e3ee3d568b31d65f8e083ecb6)) 🔏
+  * 🔧 Update semantic release configuration by @Romain Deville ([`0c47111`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/0c4711174394a9fbfe42af3844671dab465274fb)) 🔏
+
+### 🔊 Others
+
+  * 💚 Fix Semantic Release from template by @Romain Deville ([`7dac077`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/7dac077ef7c3723f0edc3cf7237cda13059b6b53)) 🔏
+
 ## v0.1.0 (2024-06-02)
 
 ### ✨ Minor
@@ -31,6 +43,7 @@
   * 📄 Add licenses by @Romain Deville ([`1b956ed`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/1b956ed1169557493f09e929788ace9abad08260)) 🔏
   * 📝 Add README by @Romain Deville ([`f3744b5`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/f3744b5407636878b8f37b06c45e7eca242899db)) 🔏
   * 📝 Add CODE_OF_CONDUCT by @Romain Deville ([`24e3f3b`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/24e3f3b3532ea50fb61fa8de4df3d5a1cfc437b4)) 🔏
+  * 🔖 v0.1.0 by @Python Semantic Release [bot] ([`a516311`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/a5163119937f21497efafe7b852c868269dac52e))
   * 🔨 Add commitlint configuration by @Romain Deville ([`5fdb3c0`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/5fdb3c03742a7b23f3673e383391309ae18f9328)) 🔏
   * 🔨 Add python semantic release configuration by @Romain Deville ([`38e514b`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/38e514b5f972319ebc81acabab476379276432cd)) 🔏
   * 🔨 Add .envrc by @Romain Deville ([`a8b63d6`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/a8b63d646b73d0ae3d02e5e754f786be8df5ab66)) 🔏
