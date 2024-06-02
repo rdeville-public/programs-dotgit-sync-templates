@@ -10,7 +10,7 @@ description: >-
   [dotgit-sync](https://framagit.org/rdeville-public/programs/dotgit-sync)
 maintainers:
   - name: Romain Deville
-    mail: code+dotgit-sync-templates@romaindeville.fr
+    mail: code@romaindeville.fr
 gitignore:
   templates:
     - base
@@ -31,7 +31,7 @@ statics:
 
 # Everything below is only used as variables in templates
 code_of_conduct:
-  abuse: abuse+dotgit-sync-templates@romaindeville.fr
+  abuse: abuse+code@romaindeville.fr
 extra:
   maintainers:
     Romain Deville:
