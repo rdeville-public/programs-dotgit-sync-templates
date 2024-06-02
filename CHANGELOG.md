@@ -12,6 +12,7 @@
 ### 🔊 Others
 
   * 💚 Fix Semantic Release from template by @Romain Deville ([`7dac077`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/7dac077ef7c3723f0edc3cf7237cda13059b6b53)) 🔏
+  * 🔖 v0.1.1 (NO-CI) by @Python Semantic Release [bot] ([`eaa5858`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/eaa5858affc84ce0938b3ebca2b8f6f9c21c19da))
 
 ## v0.1.0 (2024-06-02)
 
