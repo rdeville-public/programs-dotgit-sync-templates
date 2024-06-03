@@ -13,6 +13,7 @@
 
 {%- if context.history.unreleased | length > 0 -%}
 {%- do fn.recompute_commit(context.history.unreleased) %}
+{#- UNRELEASED #}
 ## Unreleased
 {{- fn.print_release() }}
 {% endif %}
