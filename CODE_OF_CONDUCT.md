@@ -62,7 +62,7 @@ representative at an online or offline event.
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the community leaders responsible for enforcement at:
 
-  * [📧 abuse+code@romaindeville.fr <abuse+code@romaindeville.fr>](mailto:abuse+code@romaindeville.fr)
+  * [📧 abuse+code@romaindeville.fr \<abuse+code@romaindeville.fr\>](mailto:abuse+code@romaindeville.fr)
 
 All complaints will be reviewed and investigated promptly and fairly.
 
