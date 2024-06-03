@@ -61,10 +61,10 @@ representative at an online or offline event.
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the community leaders responsible for enforcement at:
 {% if "abuse" in code_of_conduct %}
-  * [📧 {{ code_of_conduct.abuse }} <{{ code_of_conduct.abuse }}>](mailto:{{ code_of_conduct.abuse }})
+  * [📧 {{ code_of_conduct.abuse }} \<{{ code_of_conduct.abuse }}\>](mailto:{{ code_of_conduct.abuse }})
 {% else %}
 {% for maintainer in maintainers %}
-  * [📧 {{ maintainer.mail }} <{{ maintainer.mail }}>](mailto:{{ maintainer.mail }})
+  * [📧 {{ maintainer.mail }} \<{{ maintainer.mail }}\>](mailto:{{ maintainer.mail }})
 {% endfor %}
 {% endif %}
 All complaints will be reviewed and investigated promptly and fairly.
