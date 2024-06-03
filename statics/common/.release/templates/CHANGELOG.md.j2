@@ -11,7 +11,7 @@
 {% import ".changelog.macros.j2" as fn with context %}
 
 {%- if context.history.unreleased | length > 0 -%}
-{{- fn.recompute_commit(context.history.unreleased) }}
+{{- fn.recompute_commit(context.history.unreleased) | replace("None","") }}
 {#- UNRELEASED #}
 ## Unreleased
 {{- fn.print_release() }}
@@ -19,7 +19,7 @@
 {#- RELEASED #}
 {%- for version, release in context.history.released.items() %}
 {{- fn.reset_namespace() }}
-{{- fn.recompute_commit(release["elements"]) }}
+{{- fn.recompute_commit(release["elements"]) | replace("None","") }}
 ## {{ version.as_tag() }} ({{ release.tagged_date.strftime("%Y-%m-%d") }})
 {{- fn.print_release() }}
 {% endfor %}
