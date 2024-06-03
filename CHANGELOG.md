@@ -1,12 +1,27 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.2.4 (2024-06-03)
+
+### 🩹 Patch
+
+  * 🐛 Fix CI root to allow schedule pipeline by Romain Deville ([`1de2d54`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/1de2d543842068b1cdcae4e7f4f2cb1d777f599a))
+
+### 🔊 Others
+
+  * 💚 Fix root CI to run on scheduled pipelines (!14) by Romain Deville ([`a618fd3`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/a618fd38d487ff033368e40c83dc27809cf5f6fc))
+  * 💚 Apply template update to main .gitlab-ci.yml by Romain Deville ([`dd714d9`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/dd714d970f73dae3d0d75726d47b337143397dcf))
+
 ## v0.2.3 (2024-06-03)
 
 ### 🩹 Patch
 
   * 🐛 Remove None output due to removing of jinja2.ext.do (!13) by Romain Deville ([`251f584`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/251f58476519b87ece32d935b9bc0ed6e62a9e96))
   * 🐛 Remove None output due to removing of jinja2.ext.do by Romain Deville ([`89dd140`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/89dd1404555ad97d711905c64d359a48a5c70888)) 🔏
+
+### 🔊 Others
+
+  * 🔖 v0.2.3 (NO-CI) by Python Semantic Release [bot] ([`984271b`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/984271b79df1f8b866e0698abc4b91ce67a10bb6))
 
 ## v0.2.2 (2024-06-03)
 
