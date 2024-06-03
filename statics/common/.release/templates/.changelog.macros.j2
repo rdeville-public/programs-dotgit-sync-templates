@@ -22,9 +22,9 @@
 {%- for _, commits in context_history | dictsort %}
   {%- for commit in commits %}
     {%- if commit.bump | string == "no_release" %}
-      {%- do ns.content.others.commits.append(commit) %}
+      {{- ns.content.others.commits.append(commit) }}
     {%- elif commit.bump | string in ["major", "minor", "patch"]  %}
-      {%- do ns.content[commit.bump | string].commits.append(commit) %}
+      {{- ns.content[commit.bump | string].commits.append(commit) }}
     {%- endif %}
   {%- endfor %}
 {%- endfor %}

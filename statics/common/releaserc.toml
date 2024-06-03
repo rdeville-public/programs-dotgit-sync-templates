@@ -23,9 +23,7 @@ trim_blocks = false
 lstrip_blocks = false
 newline_sequence = "\n"
 keep_trailing_newline = false
-extensions = [
-  "jinja2.ext.do"
-]
+extensions = []
 autoescape = true
 
 [semantic_release.branches.main]

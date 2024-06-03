@@ -8,7 +8,7 @@
       }
     %}
       {%- if author not in authors %}
-        {%- do authors.append(author) %}
+        {{- authors.append(author) }}
       {%- endif %}
     {%- endfor %}
   {%- endfor %}
@@ -26,6 +26,6 @@
     authors=[]
   )
 %}
-{%- do compute_authors(context, ns.authors) %}
+{{- compute_authors(context, ns.authors) }}
 {{- print_author(ns.authors) }}
 {%- endmacro %}
