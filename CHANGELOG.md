@@ -1,6 +1,14 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.2.5 (2024-06-03)
+
+### 🩹 Patch
+
+  * ✏️ Fix typo in main CI on template and repos (!15) by Romain Deville ([`aab6e1a`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/aab6e1af2e8262ecf0b4a38ec2cb80ef09d11da3))
+  * ✏️ Apply fix typo on root ci pipeline source by Romain Deville ([`bcf44f3`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/bcf44f3429ad6b9362c61411fdbf78fe64b3f86a)) 🔏
+  * ✏️ Fix typo in pipeline source workflow on root ci by Romain Deville ([`bef6c19`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/bef6c19f2d64f430716f023a66ac2565020f9109)) 🔏
+
 ## v0.2.4 (2024-06-03)
 
 ### 🩹 Patch
@@ -11,6 +19,7 @@
 
   * 💚 Fix root CI to run on scheduled pipelines (!14) by Romain Deville ([`a618fd3`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/a618fd38d487ff033368e40c83dc27809cf5f6fc))
   * 💚 Apply template update to main .gitlab-ci.yml by Romain Deville ([`dd714d9`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/dd714d970f73dae3d0d75726d47b337143397dcf))
+  * 🔖 v0.2.4 (NO-CI) by Python Semantic Release [bot] ([`5446ddb`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/5446ddb74bafc0d6b3e2cd145c2302759eb5e624))
 
 ## v0.2.3 (2024-06-03)
 
