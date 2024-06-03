@@ -1,6 +1,17 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.2.7 (2024-06-03)
+
+### 🩹 Patch
+
+  * 🐛 Fix dotgit sync CI template and config condition (!17) by Romain Deville ([`c4c895b`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/c4c895b6062f827a6a533f58fcf6885d3bd62ec2))
+  * 🐛 Fix dotgit sync CI template condition by Romain Deville ([`234a63f`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/234a63f897a91e94d267d64f91f7d6f56f874d93)) 🔏
+
+### 🔊 Others
+
+  * 💚 Fix dotgit sync CI condition by Romain Deville ([`acbedc4`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/acbedc4144ffbf89aa4d246ca0b16e7cf668803b)) 🔏
+
 ## v0.2.6 (2024-06-03)
 
 ### 🩹 Patch
@@ -9,6 +20,10 @@
   * ✏️ Revert back release and changelog typo to template by Romain Deville ([`72425a7`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/72425a707a08296db21c5c0a7bc61a6e107f75c0)) 🔏
   * ✏️ Apply typos on dotgit-sync CI by Romain Deville ([`24b753e`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/24b753e9e96b597c6d1c14ee5d94e94e375a534e)) 🔏
   * ✏️ Typo on schedule dotgit-sync CI template by Romain Deville ([`5ca9b0d`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/5ca9b0d2b7305da3423050e94e91355172aaf7aa)) 🔏
+
+### 🔊 Others
+
+  * 🔖 v0.2.6 (NO-CI) by Python Semantic Release [bot] ([`d3ce877`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/d3ce8778905430bf52f3f3af32580991a50679dd))
 
 ## v0.2.5 (2024-06-03)
 
