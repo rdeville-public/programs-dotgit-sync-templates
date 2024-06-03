@@ -1,6 +1,16 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
+NoneNoneNoneNoneNone
+## v0.2.1 (2024-06-03)
 
+### 🩹 Patch
+
+  * 🐛 Remove jinja2.ext.do from Python Semantic Release (!12) by Romain Deville ([`7f99b8f`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/7f99b8f1d5abc1cf7b8564927fa48b4dcc13fa9d))
+  * 🐛 Remove usage of jinja2.ext.do from templates by Romain Deville ([`9b11dea`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/9b11dea194cd69ac9a4a46a6829503fb7ea57ff2)) 🔏
+  * 🐛 Remove use of jinja2.ext.do from config by Romain Deville ([`b3ac7db`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/b3ac7dbf736740d1f38caa63d11443e9f028f1d8)) 🔏
+  * 🔧 Remove jinja2.ext.do from python semantic release by Romain Deville ([`8c542d8`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/8c542d816bf7468dde80dc36318604c1662d9b51)) 🔏
+  * 🔧 Apply removing jinja2.ext.do from release.toml by Romain Deville ([`cceaa23`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/cceaa231f60dfd4d7971d489fc7e0747a6e68519)) 🔏
+NoneNoneNoneNoneNoneNoneNoneNone
 ## v0.2.0 (2024-06-03)
 
 ### ✨ Minor
@@ -18,7 +28,8 @@
 
   * 💡 Apply comment from Changelog tpl update by Romain Deville ([`060d2ee`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/060d2eef122b178c18e7079a668d8c3e138d870c)) 🔏
   * 💡 Add a comment in changelog tpl by Romain Deville ([`61591b8`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/61591b8f8c97a8e70612982dad3c092a86549699)) 🔏
-
+  * 🔖 v0.2.0 (NO-CI) by Python Semantic Release [bot] ([`e268eee`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/e268eee132a0a5e8057690730890a27845e35301))
+NoneNoneNoneNoneNoneNone
 ## v0.1.1 (2024-06-02)
 
 ### 🩹 Patch
@@ -32,7 +43,7 @@
   * 💚 Fix Semantic Release from template by Romain Deville ([`7dac077`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/7dac077ef7c3723f0edc3cf7237cda13059b6b53)) 🔏
   * 🔖 v0.1.1 (NO-CI) by Python Semantic Release [bot] ([`8c13934`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/8c139342bd883a03c254f83a5f646c8f12090956))
   * 🔖 v0.1.1 (NO-CI) by Python Semantic Release [bot] ([`eaa5858`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/eaa5858affc84ce0938b3ebca2b8f6f9c21c19da))
-
+NoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNoneNone
 ## v0.1.0 (2024-06-02)
 
 ### ✨ Minor
@@ -68,7 +79,7 @@
   * 🔨 Add python semantic release configuration by Romain Deville ([`38e514b`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/38e514b5f972319ebc81acabab476379276432cd)) 🔏
   * 🔨 Add .envrc by Romain Deville ([`a8b63d6`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/a8b63d646b73d0ae3d02e5e754f786be8df5ab66)) 🔏
   * 🙈 Add .gitignore by Romain Deville ([`85d3bdb`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/85d3bdbaad4d81b62fb2b982cd9a9321d0443042)) 🔏
-
+None
 ## v0.0.0 (2024-05-28)
 
 ### 🔊 Others
