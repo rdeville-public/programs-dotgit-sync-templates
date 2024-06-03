@@ -1,6 +1,14 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
-NoneNoneNoneNoneNone
+NoneNoneNone
+## v0.2.2 (2024-06-03)
+
+### 🩹 Patch
+
+  * ✏️ Fix typo in CODE_OF_CONDUCT template and apply it (!10) by Romain Deville ([`3c43c6a`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/3c43c6a665da7de54d4aa0d95f18605836d5b7a0))
+  * ✏️ Apply typo change to CODE_OF_CONDUCT by Romain Deville ([`2d5641b`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/2d5641b13842b2ddae5187a24d0cecf749cb6495))
+  * ✏️ Fix typo in CODE_OF_CONDUCT template by Romain Deville ([`a9a3493`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/a9a3493ab04b76c359146524967c6ea22b722802))
+NoneNoneNoneNoneNoneNone
 ## v0.2.1 (2024-06-03)
 
 ### 🩹 Patch
@@ -10,6 +18,10 @@ NoneNoneNoneNoneNone
   * 🐛 Remove use of jinja2.ext.do from config by Romain Deville ([`b3ac7db`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/b3ac7dbf736740d1f38caa63d11443e9f028f1d8)) 🔏
   * 🔧 Remove jinja2.ext.do from python semantic release by Romain Deville ([`8c542d8`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/8c542d816bf7468dde80dc36318604c1662d9b51)) 🔏
   * 🔧 Apply removing jinja2.ext.do from release.toml by Romain Deville ([`cceaa23`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/cceaa231f60dfd4d7971d489fc7e0747a6e68519)) 🔏
+
+### 🔊 Others
+
+  * 🔖 v0.2.1 (NO-CI) by Python Semantic Release [bot] ([`ac07173`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/ac071736efb70f0f77c506623bac5b5cdb0e7903))
 NoneNoneNoneNoneNoneNoneNoneNone
 ## v0.2.0 (2024-06-03)
 
