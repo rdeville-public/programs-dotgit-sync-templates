@@ -11,15 +11,15 @@
 {% import ".changelog.macros.j2" as fn with context %}
 
 {%- if context.history.unreleased | length > 0 -%}
-{%- do fn.recompute_commit(context.history.unreleased) %}
+{{- fn.recompute_commit(context.history.unreleased) }}
 {#- UNRELEASED #}
 ## Unreleased
 {{- fn.print_release() }}
 {% endif %}
 {#- RELEASED #}
 {%- for version, release in context.history.released.items() %}
-{%- do fn.reset_namespace() %}
-{%- do fn.recompute_commit(release["elements"]) %}
+{{- fn.reset_namespace() }}
+{{- fn.recompute_commit(release["elements"]) }}
 ## {{ version.as_tag() }} ({{ release.tagged_date.strftime("%Y-%m-%d") }})
 {{- fn.print_release() }}
 {% endfor %}

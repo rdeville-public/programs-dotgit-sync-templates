@@ -8,5 +8,5 @@
   })
 %}
 {% import ".changelog.macros.j2" as fn with context %}
-{%- do fn.recompute_commit(release["elements"]) %}
+{{- fn.recompute_commit(release["elements"]) }}
 {{- fn.print_release() }}
