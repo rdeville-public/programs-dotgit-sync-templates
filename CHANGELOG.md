@@ -1,6 +1,20 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.2.8 (2024-06-04)
+
+### 🩹 Patch
+
+  * 🔧(config): Update .config.yaml according to refacto by Romain Deville ([`398f360`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/398f360b1e03338a6c5fd619d0bd1659703b1783)) 🔏
+
+### 🔊 Others
+
+  * 🙈 Update Gitignore after .config.yaml update by Romain Deville ([`514c187`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/514c187b6479c4c880dcdae99ce1e2dc66620d7d)) 🔏
+  * 🚚 Moving templates files in new folders (!18) by Romain Deville ([`d1224ff`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/d1224ff1b48bc3fdea3668e71443e8e01554fbca))
+  * 🚚(templates): Move common folder to base by Romain Deville ([`ad14174`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/ad141740a8ca14ce7861a1a90a206f7a03012ca8)) 🔏
+  * 🚚(statics): Move not CI files from common to base by Romain Deville ([`2ded4e8`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/2ded4e8f0ae44bffde97572713d7289330be35ec)) 🔏
+  * 🚚(statics): Move Gitlab CI from base to base-ci-gitlab by Romain Deville ([`0cf4662`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/0cf46627fcffec6fed9b8e4b45b1884ff8fc2122)) 🔏
+
 ## v0.2.7 (2024-06-03)
 
 ### 🩹 Patch
@@ -11,6 +25,7 @@
 ### 🔊 Others
 
   * 💚 Fix dotgit sync CI condition by Romain Deville ([`acbedc4`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/acbedc4144ffbf89aa4d246ca0b16e7cf668803b)) 🔏
+  * 🔖 v0.2.7 (NO-CI) by Python Semantic Release [bot] ([`6a4a020`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/6a4a0205de14d4943c949afb0211cd55398def2a))
 
 ## v0.2.6 (2024-06-03)
 
