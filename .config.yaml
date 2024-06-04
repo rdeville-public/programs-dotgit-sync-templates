@@ -1,22 +1,20 @@
 ---
+# Source of template files
+# ------------------------------------------------------------------------------
 source:
+  # Use itself as this repo is the one that store my templates
   path: ./
+  # If used from another repos, use `git` key below
   # git:
   #   url: https://framagit.org/rdeville-public/programs/dotgit-sync-templates
-  #   ref: v0.0.0
+  #   ref: vX.Y.Z
+
+# Repos description
+# ------------------------------------------------------------------------------
 name: dotgit-sync-templates
 description: >-
   Repository of templated files to used in combination with
   [dotgit-sync](https://framagit.org/rdeville-public/programs/dotgit-sync)
-maintainers:
-  - name: Romain Deville
-    mail: code@romaindeville.fr
-gitignore:
-  templates:
-    - base
-    - python
-    - javascript
-    - jsonnet
 licenses:
   copyright:
     owner: Romain Deville
@@ -24,12 +22,20 @@ licenses:
   main: MIT
   others:
     - BEERWARE
-templates:
-  - common
+maintainers:
+  - name: Romain Deville
+    mail: code@romaindeville.fr
+gitignore:
+  templates:
+    - base
 statics:
-  - common
+  - base
+  - base-ci-gitlab
+templates:
+  - base
 
 # Everything below is only used as variables in templates
+# ------------------------------------------------------------------------------
 code_of_conduct:
   abuse: abuse+code@romaindeville.fr
 extra:
