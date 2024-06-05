@@ -1,6 +1,13 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.2.12 (2024-06-05)
+
+### 🩹 Patch
+
+  * ⬆️ Update templated files from dotgit-sync (!21) by Romain Deville ([`400a4e5`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/400a4e5581709772b0f503d0a202aed83bb9d11a))
+  * ⬆️ Update templated files from dotgit-sync by Dotgit Sync [bot] ([`af4341e`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/af4341efbd5c4fe48a973c3ca81842c5f7d43984))
+
 ## v0.2.11 (2024-06-05)
 
 ### 🩹 Patch
@@ -12,6 +19,7 @@
 ### 🔊 Others
 
   * 💚 Fix Release CI by Romain Deville ([`03f5cb9`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/03f5cb9263d8d33074aa82b7ac04706fff88ab64)) 🔏
+  * 🔖 v0.2.11 (NO-CI) by Python Semantic Release [bot] ([`2376e84`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/2376e84e8c5af1b5547798bcc8d704ac6463974e))
   * 🙈 Update gitignore by Romain Deville ([`74d2eee`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/74d2eee9b60844013685b3ed2cccab938ba3d551)) 🔏
   * 🚚 Move .config.yaml to .dotgit.yaml by Romain Deville ([`507f5dc`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/507f5dc280390eaf238a65ef8bd3c56f9fab3ca6)) 🔏
 
