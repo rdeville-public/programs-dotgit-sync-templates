@@ -43,8 +43,8 @@ extra:
     Romain Deville:
       socials:
         Website:
-          alt: https://romaindeville.fr
-          url: https://romaindeville.fr
+          alt: &website https://romaindeville.fr
+          url: *website
         Github:
           alt: "@rdeville"
           url: https://github.com/rdeville
