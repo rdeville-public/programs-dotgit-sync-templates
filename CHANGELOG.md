@@ -1,6 +1,20 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.2.11 (2024-06-05)
+
+### 🩹 Patch
+
+  * 🐛(base-ci-gitlab) Fix Relase CI (!22) by Romain Deville ([`bc2ef74`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/bc2ef7455598b847424009564326c92318f54a7e))
+  * 🐛(base-ci-gitlab): Add git fetch to release CI by Romain Deville ([`cc3efc2`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/cc3efc2fa1d1ea4b23bbbda59fa970c74556672b)) 🔏
+  * 🔧 Update .dotgit.yaml by Romain Deville ([`837532c`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/837532c8ef6627aa2219cbc876f2c80a16431ac3)) 🔏
+
+### 🔊 Others
+
+  * 💚 Fix Release CI by Romain Deville ([`03f5cb9`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/03f5cb9263d8d33074aa82b7ac04706fff88ab64)) 🔏
+  * 🙈 Update gitignore by Romain Deville ([`74d2eee`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/74d2eee9b60844013685b3ed2cccab938ba3d551)) 🔏
+  * 🚚 Move .config.yaml to .dotgit.yaml by Romain Deville ([`507f5dc`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/507f5dc280390eaf238a65ef8bd3c56f9fab3ca6)) 🔏
+
 ## v0.2.10 (2024-06-05)
 
 ### 🩹 Patch
@@ -11,6 +25,7 @@
 ### 🔊 Others
 
   * 💚 Fix git diff condition dotgit sync CI by Romain Deville ([`8a5c841`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/8a5c8416165cca5055caa1be8437312204cbb5f0)) 🔏
+  * 🔖 v0.2.10 (NO-CI) by Python Semantic Release [bot] ([`36658c1`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/36658c15a292d5edb35fbfd0b55005627441dbeb))
 
 ## v0.2.9 (2024-06-05)
 
