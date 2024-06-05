@@ -1,6 +1,17 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.2.10 (2024-06-05)
+
+### 🩹 Patch
+
+  * 🐛 Fix wrong git diff condition dotgit sync CI statics (!20) by Romain Deville ([`1b7d533`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/1b7d533372fea7864c975a236c2b0cc03c3d1aae))
+  * 🐛(base-ci-gitlab): Fix git diff condition dotgit sync CI statics by Romain Deville ([`f5dbbda`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/f5dbbda40da00d5bc326b31339b345bdf8d8149e)) 🔏
+
+### 🔊 Others
+
+  * 💚 Fix git diff condition dotgit sync CI by Romain Deville ([`8a5c841`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/8a5c8416165cca5055caa1be8437312204cbb5f0)) 🔏
+
 ## v0.2.9 (2024-06-05)
 
 ### 🩹 Patch
@@ -11,6 +22,7 @@
 ### 🔊 Others
 
   * 💚 Fix dotgit-sync CI by Romain Deville ([`d3ee2e2`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/d3ee2e20935bf86e78e7e00612eb2cd80720f9b0)) 🔏
+  * 🔖 v0.2.9 (NO-CI) by Python Semantic Release [bot] ([`4c5dda6`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/4c5dda6430b1ffb6d740e7170210ac53d7ab129c))
 
 ## v0.2.8 (2024-06-04)
 
