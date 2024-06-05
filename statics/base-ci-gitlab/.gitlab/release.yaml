@@ -16,6 +16,7 @@
     - export PYTHONPATH=${PWD}/.release
   script:
       # Avoid being in detached state
+    - git fetch
     - git switch ${CI_MERGE_REQUEST_SOURCE_BRANCH_NAME:-$CI_COMMIT_BRANCH}
     - semantic-release
         -c releaserc.toml
@@ -38,6 +39,7 @@
   before_script: *before_script
   script:
       # Avoid being in detached state
+    - git fetch
     - git switch "${CI_DEFAULT_BRANCH}"
     - git remote set-url origin "https://gitlab-ci-token:${DOTGIT_SYNC_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}"
     - semantic-release
