@@ -80,4 +80,5 @@
     - if: $CI_PIPELINE_SOURCE == "schedule" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
       # Do not run otherwise
     - when: never
+
 # END DOTGIT-SYNC BLOCK MANAGED

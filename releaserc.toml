@@ -55,4 +55,5 @@ token = { "env" = "PYTHON_SEMANTIC_RELEASE_TOKEN" }
 # [semantic_release.publish]
 # dist_glob_patterns = ["dist/*"]
 # upload_to_vcs_release = true
+
 # END DOTGIT-SYNC BLOCK MANAGED

@@ -44,4 +44,5 @@
       # and description follow specific syntax as soon as possible
     - if: $CI_PIPELINE_SOURCE == "merge_request_event"
       when: always
+
 # END DOTGIT-SYNC BLOCK MANAGED

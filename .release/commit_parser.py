@@ -104,4 +104,5 @@ class GitmojiCommitParser(CommitParser[ParseResult, GitmojiParserOptions]):
             ),
             commit=commit,
         )
+
 # END DOTGIT-SYNC BLOCK MANAGED
