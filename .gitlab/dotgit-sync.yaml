@@ -41,7 +41,7 @@
     - dotgit-sync
     - git status
     - |-
-      if git diff --quiet
+      if ! git diff --quiet
       then
         export DOTGIT_UPGRADE=true
       fi
