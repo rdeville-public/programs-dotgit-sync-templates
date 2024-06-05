@@ -1,6 +1,17 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.2.9 (2024-06-05)
+
+### 🩹 Patch
+
+  * 🐛 Fix bug in dotgit-sync statics CI and apply it (!19) by Romain Deville ([`75d0a4a`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/75d0a4ace29ff2de791d596fc71749bf0e5c21b9))
+  * 🐛(base-ci-gitlab): Fix bug in dotgit-sync statics CI by Romain Deville ([`c695992`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/c695992471059e2ec8bc8113f0848d52a46543fd)) 🔏
+
+### 🔊 Others
+
+  * 💚 Fix dotgit-sync CI by Romain Deville ([`d3ee2e2`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/d3ee2e20935bf86e78e7e00612eb2cd80720f9b0)) 🔏
+
 ## v0.2.8 (2024-06-04)
 
 ### 🩹 Patch
@@ -9,6 +20,7 @@
 
 ### 🔊 Others
 
+  * 🔖 v0.2.8 (NO-CI) by Python Semantic Release [bot] ([`1379502`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/13795020fe9fd044d32306ee19b21294c5b1295d))
   * 🙈 Update Gitignore after .config.yaml update by Romain Deville ([`514c187`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/514c187b6479c4c880dcdae99ce1e2dc66620d7d)) 🔏
   * 🚚 Moving templates files in new folders (!18) by Romain Deville ([`d1224ff`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/d1224ff1b48bc3fdea3668e71443e8e01554fbca))
   * 🚚(templates): Move common folder to base by Romain Deville ([`ad14174`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/ad141740a8ca14ce7861a1a90a206f7a03012ca8)) 🔏
