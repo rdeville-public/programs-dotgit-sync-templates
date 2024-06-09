@@ -33,7 +33,7 @@
 ---
 <!-- BEGIN DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_README -->
 <!-- YOU CAN REPLACE THIS COMMENT AND PUT CUSTOM CONTENT HERE -->
-<!-- YOUR CUSTOM CONTENT WILL NOT BE OVERRIDEN -->
+<!-- YOUR CUSTOM CONTENT WILL NOT BE OVERRIDDEN -->
 ## 📌 Prerequisites
 
 ## ⚙️ Install
@@ -44,7 +44,6 @@
 
 <!-- END DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_README -->
 {%- set repo_url = extra.repo.server + extra.repo.namespace + "/" + name %}
-
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
@@ -58,11 +57,11 @@ You can also take a look at the [CONTRIBUTING.md][contributing].
 
 ## 👤 Maintainers
 {% for maintainer in maintainers %}
-  * 📧 [**{{ maintainer.name }}** \<{{ maintainer.mail }}\>](mailto:{{ maintainer.mail }})
+* 📧 [**{{ maintainer.name }}** \<{{ maintainer.mail }}\>](mailto:{{ maintainer.mail }})
   {%- if "maintainers" in extra and maintainer.name in extra.maintainers %}
     {%- for maintainer_inf in extra.maintainers[maintainer.name] %}
       {%- for key, val in extra.maintainers[maintainer.name].socials.items() %}
-    * {{ key }}: [{{ val.alt }}]({{ val.url }})
+  * {{ key }}: [{{ val.alt }}]({{ val.url }})
       {%- endfor %}
     {%- endfor %}
   {%- endif %}
@@ -79,9 +78,9 @@ Copyright © {{ date.first_year }} - {{ date.current_year }} {{ licenses.copyrig
 {% if "others" in licenses and licenses.others | length > 0 -%}
 This project is under following licenses (**OR**) :
 
-  * [{{ licenses.main }}][main_license]
+* [{{ licenses.main }}][main_license]
   {%- for license in licenses.others %}
-  * [{{ license }}][{{ license | lower }}_license]
+* [{{ license }}][{{ license | lower }}_license]
   {%- endfor -%}
 {% else -%}
 This project is under [{{ licenses.main }}][main_license].

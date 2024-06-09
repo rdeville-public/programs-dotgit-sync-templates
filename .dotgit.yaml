@@ -9,6 +9,15 @@ source:
   #   url: https://framagit.org/rdeville-public/programs/dotgit-sync-templates
   #   ref: vX.Y.Z
 
+# DotGit Sync Configuration
+# ------------------------------------------------------------------------------
+dotgit:
+  yaml:
+    merge: only
+    only:
+      - .pre-commit-config.yaml
+      - gitlab-ci.yaml
+
 # Repos description
 # ------------------------------------------------------------------------------
 name: dotgit-sync-templates
@@ -31,6 +40,10 @@ gitignore:
 statics:
   - base
   - base-ci-gitlab
+  - base-pre-commit
+  - commintlint-pre-commit
+  - markdown
+    # - markdown-ci-gitlab
 templates:
   - base
 

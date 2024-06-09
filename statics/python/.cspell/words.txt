@@ -1,0 +1,3 @@
+# Word present in all my python project
+pyproject
+VENV

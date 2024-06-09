@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD043 MD033 MD013 -->
 <!-- BEGIN DOTGIT-SYNC BLOCK MANAGED -->
 # 👋 Welcome to dotgit-sync-templates
 
@@ -22,7 +23,6 @@
 > Repository of templated files to used in combination with [dotgit-sync](https://framagit.org/rdeville-public/programs/dotgit-sync)
 
 ---
-
 <!-- BEGIN DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_README -->
 ## 📌 Prerequisites
 
@@ -77,11 +77,11 @@ You can also take a look at the [CONTRIBUTING.md][contributing].
 
 ## 👤 Maintainers
 
-  * 📧 [**Romain Deville** \<code@romaindeville.fr\>](mailto:code@romaindeville.fr)
-    * Website: [https://romaindeville.fr](https://romaindeville.fr)
-    * Github: [@rdeville](https://github.com/rdeville)
-    * Gitlab: [@r.deville](https://gitlab.com/r.deville)
-    * Framagit: [@rdeville](https://framagit.org/rdeville)
+* 📧 [**Romain Deville** \<code@romaindeville.fr\>](mailto:code@romaindeville.fr)
+  * Website: [https://romaindeville.fr](https://romaindeville.fr)
+  * Github: [@rdeville](https://github.com/rdeville)
+  * Gitlab: [@r.deville](https://gitlab.com/r.deville)
+  * Framagit: [@rdeville](https://framagit.org/rdeville)
 
 ## 📝 License
 
@@ -89,10 +89,9 @@ Copyright © 2024 [Romain Deville](code@romaindeville.fr)
 
 This project is under following licenses (**OR**) :
 
-  * [MIT][main_license]
-  * [BEERWARE][beerware_license]
+* [MIT][main_license]
+* [BEERWARE][beerware_license]
 
 [main_license]: https://framagit.org/rdeville-public/programs/dotgit-sync-templates/blob/main/LICENSE
 [beerware_license]: https://framagit.org/rdeville-public/programs/dotgit-sync-templates/blob/main/LICENSE.BEERWARE
-
 <!-- END DOTGIT-SYNC BLOCK MANAGED -->

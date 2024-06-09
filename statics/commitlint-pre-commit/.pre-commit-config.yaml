@@ -1,0 +1,11 @@
+repos:
+    # Commitlint
+    # ------------------------------------------------------------------------
+  - repo: https://github.com/alessandrojcm/commitlint-pre-commit-hook
+    rev: v9.14.0
+    hooks:
+      - id: commitlint
+        additional_dependencies:
+          - gitmojis
+        stages:
+          - commit-msg

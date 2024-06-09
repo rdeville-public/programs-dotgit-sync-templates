@@ -1,0 +1,117 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "pre-commit@3.7.1": {
+      "last_modified": "2024-06-06T04:00:50Z",
+      "resolved": "github:NixOS/nixpkgs/818dbe2f96df233d2041739d6079bb616d3e5597#pre-commit",
+      "source": "devbox-search",
+      "version": "3.7.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/pxd2jrn0hk62jc68r34rnvwha8v03n2v-pre-commit-3.7.1",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/17cs6hywf9i7xcshyz1qhm5g5ic24qs1-pre-commit-3.7.1-dist"
+            }
+          ],
+          "store_path": "/nix/store/pxd2jrn0hk62jc68r34rnvwha8v03n2v-pre-commit-3.7.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/csf42gw742isqh5m2j6zz89chkjr6dr9-pre-commit-3.7.1",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/cpwj3gkdglf8y8c56982yl0mg1lg81g2-pre-commit-3.7.1-dist"
+            }
+          ],
+          "store_path": "/nix/store/csf42gw742isqh5m2j6zz89chkjr6dr9-pre-commit-3.7.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/yi6f9fm26zacl6ww5dfslliclqldz2s1-pre-commit-3.7.1",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/2ziiyvmn9sf9sw9k407w5ibbw259jsyx-pre-commit-3.7.1-dist"
+            }
+          ],
+          "store_path": "/nix/store/yi6f9fm26zacl6ww5dfslliclqldz2s1-pre-commit-3.7.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/pcxm0k1lczz12xclshrwxg04yz9s59jv-pre-commit-3.7.1",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/65cxh7jhdw7rcyaqj4xllzrf7nfr9br2-pre-commit-3.7.1-dist"
+            }
+          ],
+          "store_path": "/nix/store/pcxm0k1lczz12xclshrwxg04yz9s59jv-pre-commit-3.7.1"
+        }
+      }
+    },
+    "yq-go@4.44.1": {
+      "last_modified": "2024-05-29T10:04:41Z",
+      "resolved": "github:NixOS/nixpkgs/ac82a513e55582291805d6f09d35b6d8b60637a1#yq-go",
+      "source": "devbox-search",
+      "version": "4.44.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/0hzb7ak6grlpczn4m2f5alsr2axq5r02-yq-go-4.44.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/0hzb7ak6grlpczn4m2f5alsr2axq5r02-yq-go-4.44.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/l8qd3js7vw3hx46w00wp184s5vn362bq-yq-go-4.44.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/l8qd3js7vw3hx46w00wp184s5vn362bq-yq-go-4.44.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/iidz7v5cnrx6h2bgcp6jaikn60gmpy7a-yq-go-4.44.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/iidz7v5cnrx6h2bgcp6jaikn60gmpy7a-yq-go-4.44.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/lq5kcj0059n9ig591s32fpc1pbfjrsa4-yq-go-4.44.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/lq5kcj0059n9ig591s32fpc1pbfjrsa4-yq-go-4.44.1"
+        }
+      }
+    }
+  }
+}
