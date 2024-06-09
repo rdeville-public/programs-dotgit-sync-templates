@@ -6,8 +6,6 @@
   },
   "shell": {
     "init_hook": [
-      "pre-commit install -f",
-      "yq '.repos[].hooks[].stages[]' .pre-commit-config.yaml | xargs -I type pre-commit install -f -t type",
       "./devbox/init_hook/pre-commit.sh"
     ]
   }
