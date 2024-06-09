@@ -1,0 +1,70 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "{{ name }}"
+description = "{{ description }}"
+authors = [
+{%- if "authors" in extra %}
+{%- for author in extra.authors %}
+  "{{ author.name }} <{{ author.mail }}>",
+{%- endfor %}
+{%- else %}
+{%- for maintainer in maintainers %}
+  "{{ maintainer.name }} <{{ maintainer.mail }}>",
+{%- endfor %}
+{%- endif %}
+]
+maintainers = [
+{%- for maintainer in maintainers %}
+  "{{ maintainer.name }} <{{ maintainer.mail }}>",
+{%- endfor %}
+]
+# BEGIN DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_POETRY
+# Version computed from git tag
+version = "0"
+readme = "README.md"
+keywords = []
+classifiers = []
+packages = []
+include = []
+homepage = ""
+repository = ""
+documentation = ""
+# END DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_POETRY
+
+[tool.poetry.urls]
+# BEGIN DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_POETRY_URLS
+#
+# END DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_POETRY_URLS
+
+[tool.poetry.scripts]
+# BEGIN DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_POETRY_SCRIPTS
+#
+# END DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_POETRY_SCRIPTS
+
+[tool.poetry.group.dev.dependencies]
+# BEGIN DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_POETRY_DEV
+yamllint = "^1.35.1"
+ruff = "^0.4.8"
+# END DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_POETRY_DEV
+
+[tool.poetry.group.test.dependencies]
+# BEGIN DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_POETRY_TEST
+#
+# END DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_POETRY_TEST
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+# BEGIN DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_POETRY_DOCS
+#
+# END DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_POETRY_DOCS
+
+[tool.poetry.dependencies]
+python = "^3.12"
+# BEGIN DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_POETRY_DEP
+#
+# END DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_POETRY_DEP
