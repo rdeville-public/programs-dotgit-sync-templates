@@ -1,0 +1,38 @@
+# BEGIN DOTGIT-SYNC BLOCK MANAGED
+Generate Changelog:
+  before_script: &id001
+  - apk add --update --no-cache git python3 py3-pip
+  - python3 -m venv .env
+  - source .env/bin/activate
+  - pip3 install python-semantic-release
+  - export PYTHONPATH=${PWD}/.release
+  image: alpine:latest
+  needs:
+  - Lint All Commit Since Default Branch
+  rules:
+  - if: $CI_PIPELINE_SOURCE == "merge_request_event" && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME
+      == $CI_DEFAULT_BRANCH
+  - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  - when: never
+  script:
+  - git fetch
+  - git switch ${CI_MERGE_REQUEST_SOURCE_BRANCH_NAME:-$CI_COMMIT_BRANCH}
+  - semantic-release -c releaserc.toml changelog
+  - cat CHANGELOG.md
+  stage: pre-release
+Tag and Release:
+  before_script: *id001
+  image: alpine:latest
+  needs:
+  - Lint All Commit Since Default Branch
+  - Generate Changelog
+  rules:
+  - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  - when: never
+  script:
+  - git fetch
+  - git switch "${CI_DEFAULT_BRANCH}"
+  - git remote set-url origin "https://gitlab-ci-token:${DOTGIT_SYNC_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}"
+  - semantic-release -c releaserc.toml version
+  stage: release
+# END DOTGIT-SYNC BLOCK MANAGED
