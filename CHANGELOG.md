@@ -1,12 +1,36 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.3.0 (2024-06-09)
+
+### ✨ Minor
+
+  * ✨ Upgrade existing templates and add new ones (!24) by Romain Deville ([`869326f`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/869326f799c29bafc0d7f93d082ba5c153b742e4))
+  * ✨(template): Add python templates by Romain Deville ([`72a8075`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/72a807529113d7ebaaa24b4ead30e0885c4315f9)) 🔏
+  * ✨(static): Add python template by Romain Deville ([`0b31878`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/0b3187867b6321a78f746e2aa062d57f33ec0aa3)) 🔏
+  * ✨(static): Add markdown-pre-commit by Romain Deville ([`4247879`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/424787963e2df801e793f11350e7741757ff9632)) 🔏
+  * ✨(static): Add markdown by Romain Deville ([`b79fe60`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/b79fe60a214ba3485d0a7dfeaee62143a8e3c941)) 🔏
+  * ✨(static): Add commitlint-pre-commit by Romain Deville ([`702677e`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/702677e1ee4ede22090aad2df07a25bf052773e8)) 🔏
+  * ✨(static): Improve base gitlab ci templates by Romain Deville ([`8015b0f`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/8015b0f7340d44c76581ed687ab60c708582dbe5)) 🔏
+  * ✨(static): Add base-pre-commit template by Romain Deville ([`11c6dd2`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/11c6dd2537044b3a32653120a02120f0e579ed78)) 🔏
+  * ✨(static): Improve base template by Romain Deville ([`a565472`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/a5654724c8e7cf326fcf56b132157b2472e3a437)) 🔏
+
+### 🩹 Patch
+
+  * ✏️(template): Fix typos in base README.md by Romain Deville ([`d536718`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/d5367184d743b63b418aef86c548ee7c943ad1d3)) 🔏
+  * ⬆️ Upgrade files from templates by Romain Deville ([`1ee427d`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/1ee427dd987674caea9c3486093e0128f15358c6)) 🔏
+  * 🔧 Update .dotgit.yaml config by Romain Deville ([`edfe382`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/edfe38235563254f5e2970a284f7a0707df8dde9)) 🔏
+
 ## v0.2.12 (2024-06-05)
 
 ### 🩹 Patch
 
   * ⬆️ Update templated files from dotgit-sync (!21) by Romain Deville ([`400a4e5`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/400a4e5581709772b0f503d0a202aed83bb9d11a))
   * ⬆️ Update templated files from dotgit-sync by Dotgit Sync [bot] ([`af4341e`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/af4341efbd5c4fe48a973c3ca81842c5f7d43984))
+
+### 🔊 Others
+
+  * 🔖 v0.2.12 (NO-CI) by Python Semantic Release [bot] ([`9773788`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/977378888bd51d0a1be68e2eb40c665a4a75a18e))
 
 ## v0.2.11 (2024-06-05)
 
