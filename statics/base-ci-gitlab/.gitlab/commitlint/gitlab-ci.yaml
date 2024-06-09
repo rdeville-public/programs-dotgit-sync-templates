@@ -26,6 +26,8 @@
 "Lint MR Title and Desc":
   image: alpine:latest
   stage: pre-ci
+  variables:
+    CI_MERGE_REQUEST_COMMIT: "${CI_MERGE_REQUEST_TITLE}\n\n${CI_MERGE_REQUEST_DESCRIPTION}"
   before_script:
     - apk add --update --no-cache
         git
@@ -36,8 +38,7 @@
         gitmojis
   script:
       # Enure MR title and description follow commitlint rules
-    - echo -e "${CI_MERGE_REQUEST_TITLE}\n\n${CI_MERGE_REQUEST_DESCRIPTION}"
-      | npx commitlint
+    - echo -e "${CI_MERGE_REQUEST_COMMIT}" | npx commitlint
   rules:
       # Always run this job on MR whatever append to the MR to ensure MR title
       # and description follow specific syntax as soon as possible
