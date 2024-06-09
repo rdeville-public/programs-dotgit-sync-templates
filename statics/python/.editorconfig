@@ -1,0 +1,7 @@
+# Python
+# -----------------------------------------------------------------------------
+[*.py]
+# Size of indentation (either tabs or space)
+indent_size = 4
+# Type of indentation (either tabs or space)
+indent_style = space
