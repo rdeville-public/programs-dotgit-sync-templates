@@ -13,6 +13,7 @@ Check dotgit-sync Update:
   rules:
   - if: $CI_PIPELINE_SOURCE == "schedule" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
   - when: never
+  - if: $CI_PIPELINE_SOURCE == "trigger" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
   script:
   - git fetch --all
   - git checkout "${CI_DEFAULT_BRANCH}"

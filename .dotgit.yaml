@@ -43,7 +43,8 @@ statics:
   - base-pre-commit
   - commintlint-pre-commit
   - markdown
-    # - markdown-ci-gitlab
+  - markdown-pre-commit
+  - markdown-ci-gitlab
 templates:
   - base
 

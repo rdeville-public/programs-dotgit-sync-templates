@@ -1,0 +1,15 @@
+---
+# Trigger my other repos depending on dotgit-sync to update themselves
+Trigger DotGit Sync Child Repos:
+  stage: post-ci
+  parallel:
+    matrix:
+      - namespace: rdeville-public/dotgiles
+        repos:
+          - dotgit-sync
+  trigger:
+    project: ${namespace}/${repos}
+  rules:
+      # Only run on main branch
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    - when: never
