@@ -1,6 +1,29 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.4.0 (2024-06-10)
+
+### ✨ Minor
+
+  * ✨ Add markdown related templates and improve CI (!25) by Romain Deville ([`b3cf7d8`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/b3cf7d8d7922edcde05564e359a02acc4ecbb92d))
+  * ✨(statics): Add markdowlint-ci-gitlab template by Romain Deville ([`6da1876`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/6da1876cabf7035a7f30d3e9b3a49e66d61d1e2e)) 🔏
+  * ✨(statics): Add markdownlintignore to markdown by Romain Deville ([`9aaf098`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/9aaf09823b0476ff482828b3ee339966a8f2e79d)) 🔏
+
+### 🩹 Patch
+
+  * 🔧 Add markdown precommit and CI to dotgit.yaml by Romain Deville ([`1c85800`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/1c85800ee886466592169df129ea0d21ec71ba3e)) 🔏
+  * 🔧 Add markdownlint configuration files by Romain Deville ([`3f0f439`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/3f0f4391ca63b56ec2f74cc754d071dc4968ea7a)) 🔏
+  * 🔧 Add markdownlint to pre-commit by Romain Deville ([`6d0e411`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/6d0e41113e88404e66d5520825419b9e80318986)) 🔏
+
+### 🔊 Others
+
+  * 👷 Add post-ci job to trigger child repos by Romain Deville ([`db72d5a`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/db72d5a6245a1029ccf0f9f52693f9c5facb6df8)) 🔏
+  * 👷 Add markdownlint CI by Romain Deville ([`9ed186d`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/9ed186d94eb000cac6f007ec8bc56e503d129673)) 🔏
+  * 👷 Add trigger source to some CI by Romain Deville ([`70cbddd`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/70cbddd2faa9d029197009ac046032f6ae46b090)) 🔏
+  * 👷(statics): Add trigger source to dotgit-sync CI by Romain Deville ([`260b3f5`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/260b3f5a78678b17bc056eb284dc3dc594ea3c07)) 🔏
+  * 👷(statics): Add new pipeline sources to root CI by Romain Deville ([`6e31797`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/6e31797dcea646aa68afa83f26ac45b8c4b1b098)) 🔏
+  * 🔨 Remove old devbox.json config by Romain Deville ([`d9f80a7`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/d9f80a7fc53e2d6e6150331e908c731f6cc6f890)) 🔏
+
 ## v0.3.0 (2024-06-09)
 
 ### ✨ Minor
@@ -20,6 +43,10 @@
   * ✏️(template): Fix typos in base README.md by Romain Deville ([`d536718`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/d5367184d743b63b418aef86c548ee7c943ad1d3)) 🔏
   * ⬆️ Upgrade files from templates by Romain Deville ([`1ee427d`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/1ee427dd987674caea9c3486093e0128f15358c6)) 🔏
   * 🔧 Update .dotgit.yaml config by Romain Deville ([`edfe382`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/edfe38235563254f5e2970a284f7a0707df8dde9)) 🔏
+
+### 🔊 Others
+
+  * 🔖 v0.3.0 (NO-CI) by Python Semantic Release [bot] ([`cc32e13`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/cc32e13d2132ea71c3ec429c34bb6d596f37914e))
 
 ## v0.2.12 (2024-06-05)
 
