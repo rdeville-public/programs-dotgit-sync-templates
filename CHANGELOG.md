@@ -1,6 +1,13 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.4.1 (2024-06-10)
+
+### 🩹 Patch
+
+  * ✏️ Typos in CI that trigger repos using dotgit sync: (!26) by Romain Deville ([`6e1b85f`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/6e1b85f425e32398b300d717bb9217963fda76f1))
+  * ✏️ Typos in CI that trigger repos using dotgit sync: by Romain Deville ([`1012681`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/10126815d396db04de00fcb388cbfcae2100dd17)) 🔏
+
 ## v0.4.0 (2024-06-10)
 
 ### ✨ Minor
@@ -22,6 +29,7 @@
   * 👷 Add trigger source to some CI by Romain Deville ([`70cbddd`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/70cbddd2faa9d029197009ac046032f6ae46b090)) 🔏
   * 👷(statics): Add trigger source to dotgit-sync CI by Romain Deville ([`260b3f5`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/260b3f5a78678b17bc056eb284dc3dc594ea3c07)) 🔏
   * 👷(statics): Add new pipeline sources to root CI by Romain Deville ([`6e31797`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/6e31797dcea646aa68afa83f26ac45b8c4b1b098)) 🔏
+  * 🔖 v0.4.0 (NO-CI) by Python Semantic Release [bot] ([`70de03f`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/70de03f0f8121cf3cc39df80f47bc83cf068ac4f))
   * 🔨 Remove old devbox.json config by Romain Deville ([`d9f80a7`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/d9f80a7fc53e2d6e6150331e908c731f6cc6f890)) 🔏
 
 ## v0.3.0 (2024-06-09)
