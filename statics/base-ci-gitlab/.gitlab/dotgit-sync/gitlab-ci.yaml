@@ -75,7 +75,9 @@
           "${DOTGIT_BRANCH}"
       fi
   rules:
-      # Force pipelines on schedule event on main
+      # Run pipelines on schedule event on main
     - if: $CI_PIPELINE_SOURCE == "schedule" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      # Run pipelines on trigger event on main
+    - if: $CI_PIPELINE_SOURCE == "trigger" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
       # Do not run otherwise
     - when: never
