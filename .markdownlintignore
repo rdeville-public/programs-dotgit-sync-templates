@@ -1,0 +1,4 @@
+# BEGIN DOTGIT-SYNC BLOCK MANAGED
+# Put outside BLOCK files to be ignored by markdownlint
+# END DOTGIT-SYNC BLOCK MANAGED
+templates/base/*.md
