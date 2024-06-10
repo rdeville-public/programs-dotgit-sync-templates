@@ -4,7 +4,7 @@ Trigger DotGit Sync Child Repos:
   stage: post-ci
   parallel:
     matrix:
-      - namespace: rdeville-public/dotfiles
+      - namespace: rdeville-public/programs
         repos:
           - dotgit-sync
   trigger:

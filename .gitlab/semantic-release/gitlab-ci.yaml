@@ -23,9 +23,6 @@ Generate Changelog:
 Tag and Release:
   before_script: *id001
   image: alpine:latest
-  needs:
-  - Lint All Commit Since Default Branch
-  - Generate Changelog
   rules:
   - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
   - when: never
