@@ -72,7 +72,7 @@ You can also take a look at the [CONTRIBUTING.md][contributing].
 {% if date.first_year == date.current_year -%}
 Copyright © {{ date.current_year }} [{{ licenses.copyright.owner }}]({{ licenses.copyright.email }})
 {%- else -%}
-Copyright © {{ date.first_year }} - {{ date.current_year }} {{ licenses.copyright.owner }}
+Copyright © {{ date.first_year }} - {{ date.current_year }} [{{ licenses.copyright.owner }}]({{ licenses.copyright.email }})
 {%- endif %}
 
 {% if "others" in licenses and licenses.others | length > 0 -%}
