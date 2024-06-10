@@ -1,12 +1,30 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.4.2 (2024-06-10)
+
+### 🩹 Patch
+
+  * ✏️(templates): Fix typo in README license section (!28) by Romain Deville ([`d3b5f01`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/d3b5f016e0466a1adb003ae120a46a9ab2ac7d0f))
+  * ✏️(templates): Fix typo in README license section by Romain Deville ([`a883695`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/a88369548b3e06263ee8beb3d920d577718e9aa1)) 🔏
+
+### 🔊 Others
+
+  * 👷 Improve base CI with new sources and fix typos (!27) by Romain Deville ([`821efda`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/821efda0786de5eeec804b39546275cba713f106))
+  * 👷 Apply previous templates changes to repo by Romain Deville ([`aeb1c0a`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/aeb1c0a8fbf0460e1c97508b3e82a7020855680e)) 🔏
+  * 👷 Update base CI with new sources and remove needs by Romain Deville ([`4a39ae6`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/4a39ae695fdc5aaf82e8b8be677ec1553ef6d01c)) 🔏
+  * 💚 Fix typo in trigger child CI by Romain Deville ([`d5991e4`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/d5991e4338f790fff4d7133cf39825c592ca2004)) 🔏
+
 ## v0.4.1 (2024-06-10)
 
 ### 🩹 Patch
 
   * ✏️ Typos in CI that trigger repos using dotgit sync: (!26) by Romain Deville ([`6e1b85f`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/6e1b85f425e32398b300d717bb9217963fda76f1))
   * ✏️ Typos in CI that trigger repos using dotgit sync: by Romain Deville ([`1012681`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/10126815d396db04de00fcb388cbfcae2100dd17)) 🔏
+
+### 🔊 Others
+
+  * 🔖 v0.4.1 (NO-CI) by Python Semantic Release [bot] ([`042c816`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/042c816be2bf9e4e8af770cd5fc80c76cf2204ef))
 
 ## v0.4.0 (2024-06-10)
 
