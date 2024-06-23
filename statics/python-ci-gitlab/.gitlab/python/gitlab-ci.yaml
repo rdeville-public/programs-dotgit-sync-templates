@@ -1,0 +1,51 @@
+---
+"Python Linter":
+  image: &python python:3.12-alpine
+  stage: lint
+  before_script: &python_before_script
+    - apk add --update --no-cache
+        git
+    - pip install poetry
+    - poetry install
+  script:
+    - poetry run ruff check
+  rules: &always
+    - when: always
+
+"Python Build":
+  image: *python
+  stage: build
+  needs:
+    - Python Linter
+  before_script: *python_before_script
+  script:
+    - poetry run pyinstaller
+        --clean
+        --noconfirm
+        --log-level WARN
+        pyinstaller.spec
+    - poetry build
+  rules: *always
+
+"Python Tests Suite":
+  image: *python
+  stage: test
+  needs:
+    - Python Build
+  before_script: *python_before_script
+  script:
+    - poetry run coverage run -m pytest
+    - poetry run coverage json
+    - poetry run coverage-threshold --config .coverage-threshold.toml
+    - poetry run coverage report
+  rules: *always
+
+"Python Publish":
+  image: *python
+  stage: post-release
+  before_script: *python_before_script
+  script:
+    - poetry publish
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      when: always
