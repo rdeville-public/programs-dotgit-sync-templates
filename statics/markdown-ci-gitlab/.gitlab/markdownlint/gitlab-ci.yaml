@@ -10,7 +10,7 @@
     - npm install
         markdownlint-cli
   script:
-    - npx markdownlint
+    - npx markdownlint-cli ./
   rules:
       # Always run this job to ensure commit follow specific syntax as soon as
       # possible
