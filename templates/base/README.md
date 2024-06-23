@@ -4,10 +4,10 @@
 
 <center>
 
-{% if "others" in licenses and licenses.others | length > 0 -%}
-[![Licenses: ({{ licenses.main }} OR {{  licenses.others | join(" OR ") }})][license_badge]][license_url]
+{% if "secondaries" in licenses and licenses.secondaries | length > 0 -%}
+[![Licenses: ({{ licenses.primary }} OR {{  licenses.secondaries | join(" OR ") }})][license_badge]][license_url]
 {% else -%}
-[![License: {{ licenses.main }})][license_badge]][license_url]
+[![License: {{ licenses.primary }})][license_badge]][license_url]
 {% endif -%}
 [![Changelog][changelog_badge]][changelog_badge_url]
 [![Build][build_badge]][build_badge_url]
@@ -19,10 +19,10 @@
 [build_badge_url]: {{ repo_url }}/-/commits/main
 [release_badge]: {{ repo_url }}/-/badges/release.svg
 [release_badge_url]: {{ repo_url }}/-/releases/
-{% if "others" in licenses and licenses.others | length > 0 -%}
-[license_badge]: https://img.shields.io/badge/Licenses-{{ licenses.main }}%20OR%20{{ licenses.others | join("%20OR%20") }}-blue
+{% if "secondaries" in licenses and licenses.secondaries | length > 0 -%}
+[license_badge]: https://img.shields.io/badge/Licenses-{{ licenses.primary }}%20OR%20{{ licenses.secondaries | join("%20OR%20") }}-blue
 {% else -%}
-[license_badge]: https://img.shields.io/badge/License-{{ licenses.main }}-blue
+[license_badge]: https://img.shields.io/badge/License-{{ licenses.primary }}-blue
 {% endif -%}
 [license_url]: {{ repo_url }}/blob/main/LICENSE
 [changelog_badge]: https://img.shields.io/badge/Changelog-Python%20Semantic%20Release-yellow
@@ -69,26 +69,26 @@ You can also take a look at the [CONTRIBUTING.md][contributing].
 
 ## 📝 License
 
-{% if date.first_year == date.current_year -%}
-Copyright © {{ date.current_year }} [{{ licenses.copyright.owner }}]({{ licenses.copyright.email }})
+{% if licenses.date.first_year == licenses.date.current_year -%}
+Copyright © {{ licenses.date.current_year }} [{{ licenses.copyright.owner }}]({{ licenses.copyright.email }})
 {%- else -%}
-Copyright © {{ date.first_year }} - {{ date.current_year }} [{{ licenses.copyright.owner }}]({{ licenses.copyright.email }})
+Copyright © {{ licenses.date.first_year }} - {{ licenses.date.current_year }} [{{ licenses.copyright.owner }}]({{ licenses.copyright.email }})
 {%- endif %}
 
-{% if "others" in licenses and licenses.others | length > 0 -%}
+{% if "secondaries" in licenses and licenses.secondaries | length > 0 -%}
 This project is under following licenses (**OR**) :
 
-* [{{ licenses.main }}][main_license]
-  {%- for license in licenses.others %}
+* [{{ licenses.primary }}][main_license]
+  {%- for license in licenses.secondaries %}
 * [{{ license }}][{{ license | lower }}_license]
   {%- endfor -%}
 {% else -%}
-This project is under [{{ licenses.main }}][main_license].
+This project is under [{{ licenses.primary }}][main_license].
 {% endif %}
 
 [main_license]: {{ repo_url }}/blob/main/LICENSE
-{% if "others" in licenses and licenses.others | length > 0 -%}
-  {%- for license in licenses.others -%}
+{% if "secondaries" in licenses and licenses.secondaries | length > 0 -%}
+  {%- for license in licenses.secondaries -%}
 [{{ license | lower }}_license]: {{ repo_url }}/blob/main/LICENSE.{{ license }}
   {%- endfor -%}
 {% endif -%}
