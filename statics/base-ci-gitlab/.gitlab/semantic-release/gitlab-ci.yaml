@@ -23,6 +23,9 @@
         changelog
     - cat CHANGELOG.md
   rules:
+      # Do Not run when called from upstream CI as its DGS template update
+    - if: $CI_PIPELINE_SOURCE == "pipeline" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      when: never
       # Run on MR if target is main
     - if: $CI_PIPELINE_SOURCE == "merge_request_event" && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == $CI_DEFAULT_BRANCH
       # Run on push to main
@@ -43,6 +46,9 @@
         -c releaserc.toml
         version
   rules:
+      # Do Not run when called from upstream CI as its DGS template update
+    - if: $CI_PIPELINE_SOURCE == "pipeline" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      when: never
       # Run on push to main
     - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
       # Do not run otherwise
