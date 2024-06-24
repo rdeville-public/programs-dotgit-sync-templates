@@ -1,6 +1,8 @@
 # BEGIN DOTGIT-SYNC BLOCK MANAGED
 DotGit Sync Templates - Repository of templated files to used in combination with
-[dotgit-sync](https://framagit.org/rdeville-public/programs/dotgit-sync)
+[dotgit-sync](https://framagit.org/rdeville-public/programs/dotgit-sync) to
+ease management of &#34;dotfiles&#34; in git repository (such as `.gitignore`,
+`.pre-commit-config.yaml`, `LICENSE`, `packages.json`, etc.).
 
 Copyright © 2024 Romain Deville
 
