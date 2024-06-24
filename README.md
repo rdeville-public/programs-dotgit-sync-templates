@@ -4,6 +4,21 @@
 
 <center>
 
+> ⚠️ IMPORTANT !
+>
+> Main repo is on [framagit.org](https://framagit.org/rdeville-public/programs/dotgit-sync-templates).
+>
+> On other online git platforms, they are just mirror of the main repo.
+>
+> Any issues, pull/merge requests, etc., might not be considered on those other
+> platforms.
+
+</center>
+
+---
+
+<center>
+
 [![Licenses: (MIT OR BEERWARE)][license_badge]][license_url]
 [![Changelog][changelog_badge]][changelog_badge_url]
 [![Build][build_badge]][build_badge_url]
@@ -20,8 +35,10 @@
 [changelog_badge]: https://img.shields.io/badge/Changelog-Python%20Semantic%20Release-yellow
 [changelog_badge_url]: https://github.com/python-semantic-release/python-semantic-release
 
-> Repository of templated files to used in combination with
-[dotgit-sync](https://framagit.org/rdeville-public/programs/dotgit-sync)
+Repository of templated files to used in combination with
+[dotgit-sync](https://framagit.org/rdeville-public/programs/dotgit-sync) to
+ease management of &#34;dotfiles&#34; in git repository (such as `.gitignore`,
+`.pre-commit-config.yaml`, `LICENSE`, `packages.json`, etc.).
 
 ---
 <!-- BEGIN DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_README -->
@@ -62,6 +79,10 @@ dotgit-sync -d "../path/to/your/local/clone"
 If you want to automate update of your dotgit files, you can check file
 `./statics/common/.gitlab/dotgit-sync.yaml` to see an example of a Gitlab CI
 that automatically upgrade dotgit files if this template is updated.
+
+And, if your repository are hosted in gitlab instances, you can trigger their
+pipelines to update files when this repository is updated. See for instance file
+`.gitlab/trigger-child-repo.yaml`.
 
 <!-- END DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_README -->
 ## 🤝 Contributing
