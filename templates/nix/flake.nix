@@ -2,7 +2,7 @@
   description = ''
     Flake for {{ name }}
 
-    {{ description }}
+    {{ description | indent }}
   '';
 
   nixConfig = {
