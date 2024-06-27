@@ -1,6 +1,31 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.6.0 (2024-06-27)
+
+### ✨ Minor
+
+  * ✨ Add nix flake template and apply it (!31) by Romain Deville ([`d9a303e`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/d9a303ebab2ba32df719a7a63220fa0871407ad1))
+  * ✨ Add nixification of the repo by Romain Deville ([`33ae9c2`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/33ae9c271338b768cc7c098764e599bfb5ac4085)) 🔏
+  * ✨(templates): Add nix template by Romain Deville ([`9d1a984`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/9d1a984d977b207df7781f05f6f3d7025bf2261c)) 🔏
+
+### 🩹 Patch
+
+  * 🍱(statics): Update markdown template by Romain Deville ([`626267e`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/626267ec6949c4871ffa74eb9850d68850069351)) 🔏
+  * 🍱(statics): Update base template by Romain Deville ([`e4615e8`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/e4615e85b7d9166145eef4764a7222abb529a130)) 🔏
+  * 👽️ Update .dotgit.yaml due to DGS Update by Romain Deville ([`a26855f`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/a26855fde4c0f0629cbefa5c840b84b28d580cb4)) 🔏
+  * 🔧 Update .markdownlintignore from DGS templates by Romain Deville ([`696eafe`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/696eafe022982b5d3ee6d396097eff393b8ff2b2)) 🔏
+  * 🔧 Update release.toml from DGS templates by Romain Deville ([`959846f`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/959846f00e461507659ce7898b7666ce9cbb23c1)) 🔏
+  * 🔧 Update pre-commit config from DGS templates by Romain Deville ([`821989f`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/821989f0129b7afec705a55511f8f10ecad7390e)) 🔏
+
+### 🔊 Others
+
+  * 🎨(templates): Update base template by Romain Deville ([`3689108`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/368910898083c4c739ad14f43bff8e2012b06121)) 🔏
+  * 💚 Update CI from DGS templates by Romain Deville ([`7ea9d91`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/7ea9d91aa1a6b6ab7664642ee2d1d7c6312bf1f3)) 🔏
+  * 📄 Update licenses from DGS Templates by Romain Deville ([`aa2f067`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/aa2f0674099d3555874105d7f8bc747a3168db74)) 🔏
+  * 📝 Update README from DGS Templates by Romain Deville ([`a465545`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/a465545a79e99641d48028f00d439d390563a813)) 🔏
+  * 🙈 Update gitignore with nix specific files by Romain Deville ([`ba777e7`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/ba777e7ba8b3da39d8550201fb0b6ded45051491)) 🔏
+
 ## v0.5.0 (2024-06-23)
 
 ### ✨ Minor
@@ -18,6 +43,7 @@
 
   * 🎨 Update statics markdown templates by Romain Deville ([`3637c9c`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/3637c9cb9f5a14752cd00645e52874a6ad876249)) 🔏
   * 👷 Update statics markdown-ci-gitlab template by Romain Deville ([`9fc14b9`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/9fc14b9ac9807e1ffd36b1b84ef3b3cdac20988a)) 🔏
+  * 🔖 v0.5.0 (NO-CI) by Python Semantic Release [bot] ([`db99d70`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/db99d707a450e538f07f8c9cbd61e14a37cb3498))
   * 🙈 Add node_modules to markdownlintignore by Romain Deville ([`e46704b`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/e46704bb1d13666967a14140fae89b74eeae6905)) 🔏
 
 ## v0.4.2 (2024-06-10)
