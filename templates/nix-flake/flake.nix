@@ -20,10 +20,12 @@
     utils = {
       url = "github:numtide/flake-utils";
     };
+{%- if "nix-devenv" in templates or "nix-all" in templates %}
     # Devenv to automate development environment combined with direnv
     devenv = {
       url = "github:cachix/devenv";
     };
+{%- endif %}
     alejandra = {
       url = "github:kamadorueda/alejandra/3.0.0";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -35,7 +37,9 @@
 
   outputs = inputs @ {
     self,
+{%- if "nix-devenv" in templates or "nix-all" in templates %}
     devenv,
+{%- endif %}
     utils,
     nixpkgs,
     alejandra,
@@ -60,6 +64,7 @@
       "aarch64-darwin"
     ];
   in
+{%- if "nix-devenv" in templates or "nix-all" in templates %}
     utils.lib.eachSystem allSystems (
       system: let
         pkgs = pkgsForSystem system;
@@ -79,6 +84,9 @@
       }
     )
     // {
+{%- else %}
+    {
+{%- endif %}
       # TOOLING
       # ========================================================================
       # Formatter for your nix files, available through 'nix fmt'
@@ -91,16 +99,20 @@
       overlays.default = final: prev: {
         {{ extra.repo.slug }} = final.callPackage ./package.nix {};
       };
+# BEGIN DOTGIT-SYNC BLOCK EXCLUDED NIX_FLAKE_OUTPUTS_PACKAGES
       packages = forAllSystems (system: rec {
-        {{ extra.repo.slug }} = with import nixpkgs {inherit system;};
+        {{ slug }} = with import nixpkgs {inherit system;};
           callPackage ./package.nix {};
-        default = {{ extra.repo.slug }};
+        default = {{ slug }};
       });
+# END DOTGIT-SYNC BLOCK EXCLUDED NIX_FLAKE_OUTPUTS_PACKAGES
 
+{%- if "nix-home-manager-module" in templates or "nix-all" in templates %}
       homeManagerModules = {
         {{ extra.repo.slug }} = import ./modules/home-manager.nix self;
       };
       homeManagerModule = self.homeManagerModules.{{ extra.repo.slug }};
+{%- endif %}
 
 # BEGIN DOTGIT-SYNC BLOCK EXCLUDED NIX_FLAKE_OUTPUTS_CUSTOM
 #
