@@ -4,7 +4,9 @@
     Flake for DotGit Sync Templates
 
     Repository of templated files to used in combination with
-[dotgit-sync](https://framagit.org/rdeville-public/programs/dotgit-sync)
+    [dotgit-sync](https://framagit.org/rdeville-public/programs/dotgit-sync) to
+    ease management of &#34;dotfiles&#34; in git repository (such as `.gitignore`,
+    `.pre-commit-config.yaml`, `LICENSE`, `packages.json`, etc.).
   '';
 
   nixConfig = {
@@ -91,18 +93,18 @@
       );
 
       overlays.default = final: prev: {
-        dotgit-sync-template = final.callPackage ./package.nix {};
+        dotgit-sync-templates = final.callPackage ./package.nix {};
       };
       packages = forAllSystems (system: rec {
-        dotgit-sync-template = with import nixpkgs {inherit system;};
+        dotgit-sync-templates = with import nixpkgs {inherit system;};
           callPackage ./package.nix {};
-        default = dotgit-sync-template;
+        default = dotgit-sync-templates;
       });
 
       homeManagerModules = {
-        dotgit-sync-template = import ./modules/home-manager.nix self;
+        dotgit-sync-templates = import ./modules/home-manager.nix self;
       };
-      homeManagerModule = self.homeManagerModules.dotgit-sync-template;
+      homeManagerModule = self.homeManagerModules.dotgit-sync-templates;
 
 # BEGIN DOTGIT-SYNC BLOCK EXCLUDED NIX_FLAKE_OUTPUTS_CUSTOM
 #
