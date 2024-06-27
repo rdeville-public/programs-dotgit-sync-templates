@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD043 MD033 MD013 -->
 <!-- BEGIN DOTGIT-SYNC BLOCK MANAGED -->
-# 👋 Welcome to dotgit-sync-templates
+# 👋 Welcome to DotGit Sync Templates
 
 <center>
 
@@ -20,7 +20,8 @@
 [changelog_badge]: https://img.shields.io/badge/Changelog-Python%20Semantic%20Release-yellow
 [changelog_badge_url]: https://github.com/python-semantic-release/python-semantic-release
 
-> Repository of templated files to used in combination with [dotgit-sync](https://framagit.org/rdeville-public/programs/dotgit-sync)
+> Repository of templated files to used in combination with
+[dotgit-sync](https://framagit.org/rdeville-public/programs/dotgit-sync)
 
 ---
 <!-- BEGIN DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_README -->
@@ -63,7 +64,6 @@ If you want to automate update of your dotgit files, you can check file
 that automatically upgrade dotgit files if this template is updated.
 
 <!-- END DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_README -->
-
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
