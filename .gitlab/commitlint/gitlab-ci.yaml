@@ -1,4 +1,4 @@
-# BEGIN DOTGIT-SYNC BLOCK MANAGED
+# BEGIN DOTGIT-SYNC BLOCK MANAGED YAML_MERGED
 Lint All Commit Since Default Branch:
   before_script:
   - apk add --update --no-cache git nodejs npm
@@ -29,4 +29,4 @@ Lint MR Title and Desc:
       ${CI_MERGE_REQUEST_TITLE}
 
       ${CI_MERGE_REQUEST_DESCRIPTION}
-# END DOTGIT-SYNC BLOCK MANAGED
+# END DOTGIT-SYNC BLOCK MANAGED YAML_MERGED

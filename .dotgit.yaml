@@ -1,17 +1,14 @@
 ---
-# Source of template files
-# ------------------------------------------------------------------------------
-source:
-  # Use itself as this repo is the one that store my templates
-  path: ./
-  # If used from another repos, use `git` key below
-  # git:
-  #   url: https://framagit.org/rdeville-public/programs/dotgit-sync-templates
-  #   ref: vX.Y.Z
-
 # DotGit Sync Configuration
 # ------------------------------------------------------------------------------
 dotgit:
+  source:
+    # Use itself as this repo is the one that store my templates
+    path: ./
+    # If used from another repos, use `git` key below
+    # git:
+    #   url: https://framagit.org/rdeville-public/programs/dotgit-sync-templates
+    #   ref: vX.Y.Z
   yaml:
     merge: only
     only:
@@ -20,16 +17,18 @@ dotgit:
 
 # Repos description
 # ------------------------------------------------------------------------------
-name: dotgit-sync-templates
-description: >-
+name: DotGit Sync Templates
+description: |-
   Repository of templated files to used in combination with
   [dotgit-sync](https://framagit.org/rdeville-public/programs/dotgit-sync)
 licenses:
+  date:
+    first_year: "2024"
   copyright:
     owner: Romain Deville
     email: code@romaindeville.fr
-  main: MIT
-  others:
+  primary: MIT
+  secondaries:
     - BEERWARE
 maintainers:
   - name: Romain Deville
@@ -41,12 +40,13 @@ statics:
   - base
   - base-ci-gitlab
   - base-pre-commit
-  - commintlint-pre-commit
+  - commitlint-pre-commit
   - markdown
   - markdown-pre-commit
   - markdown-ci-gitlab
 templates:
   - base
+  - nix
 
 # Everything below is only used as variables in templates
 # ------------------------------------------------------------------------------
@@ -69,5 +69,5 @@ extra:
           alt: "@rdeville"
           url: https://framagit.org/rdeville
   repo:
-    server: https://framagit.org/
-    namespace: rdeville-public/programs
+    url: https://framagit.org/rdeville-public/programs/dotgit-sync-templates
+    slug: dotgit-sync-template
