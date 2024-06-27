@@ -1,4 +1,4 @@
-# BEGIN DOTGIT-SYNC BLOCK MANAGED
+# BEGIN DOTGIT-SYNC BLOCK MANAGED YAML_MERGED
 Lint Markdown:
   image: alpine:latest
   stage: lint
@@ -7,6 +7,7 @@ Lint Markdown:
   - npm install markdownlint-cli
   script:
   - npx markdownlint
+  - npx markdownlint-cli ./
   rules:
   - when: always
-# END DOTGIT-SYNC BLOCK MANAGED
+# END DOTGIT-SYNC BLOCK MANAGED YAML_MERGED
