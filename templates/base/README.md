@@ -1,6 +1,5 @@
 {#-<!-- markdownlint-disable-file -->-#}
 # 👋 Welcome to {{ name }}
-{%- set repo_url = extra.repo.server + extra.repo.namespace + "/" + name %}
 
 <center>
 
@@ -15,16 +14,16 @@
 
 </center>
 
-[build_badge]: {{ repo_url }}/badges/main/pipeline.svg
-[build_badge_url]: {{ repo_url }}/-/commits/main
-[release_badge]: {{ repo_url }}/-/badges/release.svg
-[release_badge_url]: {{ repo_url }}/-/releases/
+[build_badge]: {{ extra.repo.url }}/badges/main/pipeline.svg
+[build_badge_url]: {{ extra.repo.url }}/-/commits/main
+[release_badge]: {{ extra.repo.url }}/-/badges/release.svg
+[release_badge_url]: {{ extra.repo.url }}/-/releases/
 {% if "secondaries" in licenses and licenses.secondaries | length > 0 -%}
 [license_badge]: https://img.shields.io/badge/Licenses-{{ licenses.primary }}%20OR%20{{ licenses.secondaries | join("%20OR%20") }}-blue
 {% else -%}
 [license_badge]: https://img.shields.io/badge/License-{{ licenses.primary }}-blue
 {% endif -%}
-[license_url]: {{ repo_url }}/blob/main/LICENSE
+[license_url]: {{ extra.repo.url }}/blob/main/LICENSE
 [changelog_badge]: https://img.shields.io/badge/Changelog-Python%20Semantic%20Release-yellow
 [changelog_badge_url]: https://github.com/python-semantic-release/python-semantic-release
 
@@ -43,7 +42,6 @@
 ## ✅ Run tests
 
 <!-- END DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_README -->
-{%- set repo_url = extra.repo.server + extra.repo.namespace + "/" + name %}
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
@@ -52,8 +50,8 @@ Feel free to check [issues page][issues_pages].
 
 You can also take a look at the [CONTRIBUTING.md][contributing].
 
-[issues_pages]: {{ repo_url }}/-/issues
-[contributing]: {{ repo_url }}/blob/main/CONTRIBUTING.md
+[issues_pages]: {{ extra.repo.url }}/-/issues
+[contributing]: {{ extra.repo.url }}/blob/main/CONTRIBUTING.md
 
 ## 👤 Maintainers
 {% for maintainer in maintainers %}
@@ -86,10 +84,10 @@ This project is under following licenses (**OR**) :
 This project is under [{{ licenses.primary }}][main_license].
 {% endif %}
 
-[main_license]: {{ repo_url }}/blob/main/LICENSE
+[main_license]: {{ extra.repo.url }}/blob/main/LICENSE
 {% if "secondaries" in licenses and licenses.secondaries | length > 0 -%}
   {%- for license in licenses.secondaries -%}
-[{{ license | lower }}_license]: {{ repo_url }}/blob/main/LICENSE.{{ license }}
+[{{ license | lower }}_license]: {{ extra.repo.url }}/blob/main/LICENSE.{{ license }}
   {%- endfor -%}
 {% endif -%}
 {#
