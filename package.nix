@@ -1,7 +1,7 @@
 # BEGIN DOTGIT-SYNC BLOCK MANAGED
 {stdenv, ...}:
 stdenv.mkDerivation {
-  name = "dotgit-sync-template";
+  name = "dotgit-sync-templates";
   src = ./.;
 # BEGIN DOTGIT-SYNC BLOCK EXCLUDED NIX_PACKAGES_PHASES
   installPhase = ''

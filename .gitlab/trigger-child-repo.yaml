@@ -7,6 +7,10 @@ Trigger DotGit Sync Child Repos:
       - namespace: rdeville-public/programs
         repos:
           - dotgit-sync
+      - namespace: rdeville-public/dotfiles
+        repos:
+          - nixos-config
+          - direnv
   trigger:
     project: ${namespace}/${repos}
   rules:

@@ -3,6 +3,21 @@
 
 <center>
 
+> ⚠️ IMPORTANT !
+>
+> Main repo is on [framagit.org]({{ extra.repo.url }}).
+>
+> On other online git platforms, they are just mirror of the main repo.
+>
+> Any issues, pull/merge requests, etc., might not be considered on those other
+> platforms.
+
+</center>
+
+---
+
+<center>
+
 {% if "secondaries" in licenses and licenses.secondaries | length > 0 -%}
 [![Licenses: ({{ licenses.primary }} OR {{  licenses.secondaries | join(" OR ") }})][license_badge]][license_url]
 {% else -%}
@@ -27,7 +42,7 @@
 [changelog_badge]: https://img.shields.io/badge/Changelog-Python%20Semantic%20Release-yellow
 [changelog_badge_url]: https://github.com/python-semantic-release/python-semantic-release
 
-> {{ description }}
+{{ description }}
 
 ---
 <!-- BEGIN DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_README -->

@@ -19,6 +19,9 @@
         --from "${CI_DEFAULT_BRANCH}"
         --to "${CI_COMMIT_BRANCH}"
   rules:
+      # Do Not run when called from upstream CI as its DGS template update
+    - if: $CI_PIPELINE_SOURCE == "pipeline" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      when: never
       # Always run this job to ensure commit follow specific syntax as soon as
       # possible
     - when: always
@@ -40,6 +43,9 @@
       # Enure MR title and description follow commitlint rules
     - echo -e "${CI_MERGE_REQUEST_COMMIT}" | npx commitlint
   rules:
+      # Do Not run when called from upstream CI as its DGS template update
+    - if: $CI_PIPELINE_SOURCE == "pipeline" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      when: never
       # Always run this job on MR whatever append to the MR to ensure MR title
       # and description follow specific syntax as soon as possible
     - if: $CI_PIPELINE_SOURCE == "merge_request_event"

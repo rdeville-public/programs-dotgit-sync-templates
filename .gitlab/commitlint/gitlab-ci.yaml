@@ -6,6 +6,8 @@ Lint All Commit Since Default Branch:
   image: alpine:latest
   rules:
   - when: always
+  - if: $CI_PIPELINE_SOURCE == "pipeline" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    when: never
   script:
   - git fetch --all
   - git checkout "${CI_DEFAULT_BRANCH}"
@@ -20,6 +22,8 @@ Lint MR Title and Desc:
   rules:
   - if: $CI_PIPELINE_SOURCE == "merge_request_event"
     when: always
+  - if: $CI_PIPELINE_SOURCE == "pipeline" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    when: never
   script:
   - echo -e "${CI_MERGE_REQUEST_TITLE}\n\n${CI_MERGE_REQUEST_DESCRIPTION}" | npx commitlint
   - echo -e "${CI_MERGE_REQUEST_COMMIT}" | npx commitlint
