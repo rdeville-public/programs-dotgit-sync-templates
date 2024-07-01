@@ -1,6 +1,13 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.7.2 (2024-07-01)
+
+### 🩹 Patch
+
+  * 🐛(statics): Fix Python CI no publish on source pipeline (!33) by Romain Deville ([`1ed45e9`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/1ed45e90e8a9fc2f28c0a1f2d8d94d1fca060c95))
+  * 🐛(statics): Fix Python CI no publish on source pipeline by Romain Deville ([`f2702b9`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/f2702b96eeb94148b27a45ad58e1bd3abafb3963)) 🔏
+
 ## v0.7.1 (2024-07-01)
 
 ### 🩹 Patch
@@ -12,6 +19,7 @@
 ### 🔊 Others
 
   * 🎨(templates): Update nix descript with indent by Romain Deville ([`10d6f2b`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/10d6f2be9f4683385e803c33924b5577606807be)) 🔏
+  * 🔖 v0.7.1 (NO-CI) by Python Semantic Release [bot] ([`2ad68bc`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/2ad68bc8aa7f0e6927e1e075160875c43855fd3c))
   * 🔥 Remove flake related file by Romain Deville ([`38139e3`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/38139e3f1ec1726b7bf6a0abd4f7f85faecd1968)) 🔏
 
 ## v0.7.0 (2024-06-27)
