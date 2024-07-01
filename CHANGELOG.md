@@ -1,6 +1,19 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.7.1 (2024-07-01)
+
+### 🩹 Patch
+
+  * 🐛(templates): Fix rendering in python pyproject by Romain Deville ([`67d551b`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/67d551b92001724ee63baf61c34322b326c2ccf8)) 🔏
+  * 🔧 Update dotgit config with slug and remove flake.nix (!32) by Romain Deville ([`1aa73b4`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/1aa73b4af5ff6ca3d08dd1460921b37a407969c6))
+  * 🔧 Update .dotgit.yaml by Romain Deville ([`d8dbf4d`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/d8dbf4dd8b0395d60bd78a29023ae88baf9bc628)) 🔏
+
+### 🔊 Others
+
+  * 🎨(templates): Update nix descript with indent by Romain Deville ([`10d6f2b`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/10d6f2be9f4683385e803c33924b5577606807be)) 🔏
+  * 🔥 Remove flake related file by Romain Deville ([`38139e3`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/38139e3f1ec1726b7bf6a0abd4f7f85faecd1968)) 🔏
+
 ## v0.7.0 (2024-06-27)
 
 ### ✨ Minor
@@ -21,6 +34,7 @@
   * 💚 Remove constraint on main gitlab-ci tpl by Romain Deville ([`4fea91e`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/4fea91eb8ee5ca67a72009b25747c548a7c1796b)) 🔏
   * 💚 Make CI template not triggered by pipeline source by Romain Deville ([`12c7b70`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/12c7b70fddf097e11c949d477f51d8093c5901e3)) 🔏
   * 📄 Update LICENSE by Romain Deville ([`e05891c`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/e05891caaff4c02113b38d78e805b8343caf18fb)) 🔏
+  * 🔖 v0.7.0 (NO-CI) by Python Semantic Release [bot] ([`e675aa2`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/e675aa251bcab4d77a9e399a9ad76a41c7aa8ea6))
 
 ## v0.6.0 (2024-06-27)
 
