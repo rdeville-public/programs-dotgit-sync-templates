@@ -1,12 +1,23 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.7.3 (2024-07-01)
+
+### 🩹 Patch
+
+  * 🐛(statics): Fix Python CI no publish on source pipeline (!34) by Romain Deville ([`eff7401`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/eff7401aaf31773eeecbcec21bdcd066ed9884f3))
+  * 🐛(statics): Fix Python CI no publish on source pipeline by Romain Deville ([`8401572`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/8401572899d5384f835524dbe7f995ab7812942f)) 🔏
+
 ## v0.7.2 (2024-07-01)
 
 ### 🩹 Patch
 
   * 🐛(statics): Fix Python CI no publish on source pipeline (!33) by Romain Deville ([`1ed45e9`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/1ed45e90e8a9fc2f28c0a1f2d8d94d1fca060c95))
   * 🐛(statics): Fix Python CI no publish on source pipeline by Romain Deville ([`f2702b9`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/f2702b96eeb94148b27a45ad58e1bd3abafb3963)) 🔏
+
+### 🔊 Others
+
+  * 🔖 v0.7.2 (NO-CI) by Python Semantic Release [bot] ([`53bf0bf`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/53bf0bf3ae1de99ca86dd2fc8e1aad2f597a6b26))
 
 ## v0.7.1 (2024-07-01)
 
