@@ -50,5 +50,8 @@
   script:
     - poetry publish
   rules:
+      # Do Not run when called from upstream CI as its DGS template update
+    - if: $CI_PIPELINE_SOURCE == "pipeline" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      when: never
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
       when: always
