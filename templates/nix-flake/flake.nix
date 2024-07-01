@@ -1,12 +1,8 @@
-# BEGIN DOTGIT-SYNC BLOCK MANAGED
 {
   description = ''
-    Flake for DotGit Sync Templates
+    Flake for {{ name }}
 
-    Repository of templated files to used in combination with
-    [dotgit-sync](https://framagit.org/rdeville-public/programs/dotgit-sync) to
-    ease management of &#34;dotfiles&#34; in git repository (such as `.gitignore`,
-    `.pre-commit-config.yaml`, `LICENSE`, `packages.json`, etc.).
+    {{ description | indent }}
   '';
 
   nixConfig = {
@@ -24,10 +20,12 @@
     utils = {
       url = "github:numtide/flake-utils";
     };
+{%- if "nix-devenv" in templates or "nix-all" in templates %}
     # Devenv to automate development environment combined with direnv
     devenv = {
       url = "github:cachix/devenv";
     };
+{%- endif %}
     alejandra = {
       url = "github:kamadorueda/alejandra/3.0.0";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -39,7 +37,9 @@
 
   outputs = inputs @ {
     self,
+{%- if "nix-devenv" in templates or "nix-all" in templates %}
     devenv,
+{%- endif %}
     utils,
     nixpkgs,
     alejandra,
@@ -64,6 +64,7 @@
       "aarch64-darwin"
     ];
   in
+{%- if "nix-devenv" in templates or "nix-all" in templates %}
     utils.lib.eachSystem allSystems (
       system: let
         pkgs = pkgsForSystem system;
@@ -83,6 +84,9 @@
       }
     )
     // {
+{%- else %}
+    {
+{%- endif %}
       # TOOLING
       # ========================================================================
       # Formatter for your nix files, available through 'nix fmt'
@@ -93,22 +97,25 @@
       );
 
       overlays.default = final: prev: {
-        dotgit-sync-templates = final.callPackage ./package.nix {};
+        {{ extra.repo.slug }} = final.callPackage ./package.nix {};
       };
+# BEGIN DOTGIT-SYNC BLOCK EXCLUDED NIX_FLAKE_OUTPUTS_PACKAGES
       packages = forAllSystems (system: rec {
-        dotgit-sync-templates = with import nixpkgs {inherit system;};
+        {{ slug }} = with import nixpkgs {inherit system;};
           callPackage ./package.nix {};
-        default = dotgit-sync-templates;
+        default = {{ slug }};
       });
+# END DOTGIT-SYNC BLOCK EXCLUDED NIX_FLAKE_OUTPUTS_PACKAGES
 
+{%- if "nix-home-manager-module" in templates or "nix-all" in templates %}
       homeManagerModules = {
-        dotgit-sync-templates = import ./modules/home-manager.nix self;
+        {{ extra.repo.slug }} = import ./modules/home-manager.nix self;
       };
-      homeManagerModule = self.homeManagerModules.dotgit-sync-templates;
+      homeManagerModule = self.homeManagerModules.{{ extra.repo.slug }};
+{%- endif %}
 
 # BEGIN DOTGIT-SYNC BLOCK EXCLUDED NIX_FLAKE_OUTPUTS_CUSTOM
 #
 # END DOTGIT-SYNC BLOCK EXCLUDED NIX_FLAKE_OUTPUTS_CUSTOM
     };
 }
-# END DOTGIT-SYNC BLOCK MANAGED
