@@ -5,7 +5,7 @@
   before_script: &python_before_script
     - apk add --update --no-cache
         git
-    - pip install poetry
+    - pip install poetry binutils
     - poetry install
   script:
     - poetry run ruff check
