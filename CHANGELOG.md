@@ -1,12 +1,23 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.7.4 (2024-07-01)
+
+### 🩹 Patch
+
+  * 🐛(statics): Fix Python CI binutils (!35) by Romain Deville ([`b7f80fd`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/b7f80fd63283ab6b581473af70d9fec55c5059f2))
+  * 🐛(statics): Fix Python CI binutils by Romain Deville ([`a680b99`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/a680b995326adc39349ba4bcb1f42b2ab0b9e123)) 🔏
+
 ## v0.7.3 (2024-07-01)
 
 ### 🩹 Patch
 
   * 🐛(statics): Fix Python CI no publish on source pipeline (!34) by Romain Deville ([`eff7401`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/eff7401aaf31773eeecbcec21bdcd066ed9884f3))
   * 🐛(statics): Fix Python CI no publish on source pipeline by Romain Deville ([`8401572`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/8401572899d5384f835524dbe7f995ab7812942f)) 🔏
+
+### 🔊 Others
+
+  * 🔖 v0.7.3 (NO-CI) by Python Semantic Release [bot] ([`225ba4e`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/225ba4e4f0067041efbc0b7ac7316bd9725ca619))
 
 ## v0.7.2 (2024-07-01)
 
