@@ -5,10 +5,13 @@
     {{ description | indent }}
   '';
 
+{%- if "nix-devenv" in templates or "nix-all" in templates %}
+  # Devenv Cachix
   nixConfig = {
     extra-trusted-public-keys = "devenv.cachix.org-1:w1cLUi8dv3hnoSPGAuibQv+f9TZLr6cv/Hm9XgU50cw=";
     extra-substituters = "https://devenv.cachix.org";
   };
+{%- endif %}
 
   inputs = {
     # Stable Nix Packages
@@ -63,6 +66,10 @@
       "x86_64-darwin"
       "aarch64-darwin"
     ];
+
+# BEGIN DOTGIT-SYNC BLOCK EXCLUDED NIX_FLAKE_CUSTOM_VARS
+#
+# END DOTGIT-SYNC BLOCK EXCLUDED NIX_FLAKE_CUSTOM_VARS
   in
 {%- if "nix-devenv" in templates or "nix-all" in templates %}
     utils.lib.eachSystem allSystems (
@@ -95,18 +102,6 @@
         system:
           alejandra.defaultPackage.${system}
       );
-
-      overlays.default = final: prev: {
-        {{ extra.repo.slug }} = final.callPackage ./package.nix {};
-      };
-# BEGIN DOTGIT-SYNC BLOCK EXCLUDED NIX_FLAKE_OUTPUTS_PACKAGES
-      packages = forAllSystems (system: rec {
-        {{ slug }} = with import nixpkgs {inherit system;};
-          callPackage ./package.nix {};
-        default = {{ slug }};
-      });
-# END DOTGIT-SYNC BLOCK EXCLUDED NIX_FLAKE_OUTPUTS_PACKAGES
-
 {%- if "nix-home-manager-module" in templates or "nix-all" in templates %}
       homeManagerModules = {
         {{ extra.repo.slug }} = import ./modules/home-manager.nix self;
@@ -115,7 +110,15 @@
 {%- endif %}
 
 # BEGIN DOTGIT-SYNC BLOCK EXCLUDED NIX_FLAKE_OUTPUTS_CUSTOM
-#
+      # Exemple of package
+      overlays.default = final: prev: {
+        {{ slug }} = final.callPackage ./package.nix {};
+      };
+      packages = forAllSystems (system: rec {
+        {{ slug }} = with import nixpkgs {inherit system;};
+          callPackage ./package.nix {};
+        default = {{ slug }};
+      });
 # END DOTGIT-SYNC BLOCK EXCLUDED NIX_FLAKE_OUTPUTS_CUSTOM
     };
 }
