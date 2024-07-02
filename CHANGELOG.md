@@ -1,12 +1,23 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.7.5 (2024-07-02)
+
+### 🩹 Patch
+
+  * ⚡️ Improve nix flake templates (!36) by Romain Deville ([`a097cb7`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/a097cb76e524d85bddd83c4f01a8470456d83920))
+  * ⚡️ Improve nix flake templates by Romain Deville ([`235a356`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/235a356b1e364d50009127792ee1faab8b02b9cc)) 🔏
+
 ## v0.7.4 (2024-07-01)
 
 ### 🩹 Patch
 
   * 🐛(statics): Fix Python CI binutils (!35) by Romain Deville ([`b7f80fd`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/b7f80fd63283ab6b581473af70d9fec55c5059f2))
   * 🐛(statics): Fix Python CI binutils by Romain Deville ([`a680b99`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/a680b995326adc39349ba4bcb1f42b2ab0b9e123)) 🔏
+
+### 🔊 Others
+
+  * 🔖 v0.7.4 (NO-CI) by Python Semantic Release [bot] ([`4511f43`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/4511f433b286eb00bf4f3905b846b2a24b194e8d))
 
 ## v0.7.3 (2024-07-01)
 
