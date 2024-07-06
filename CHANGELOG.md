@@ -1,6 +1,13 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.9.0 (2024-07-06)
+
+### ✨ Minor
+
+  * ✨(statics): Add .envrc to base template (!38) by Romain Deville ([`45352f2`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/45352f20796e1001bf72ade6b9932853125748b8))
+  * ✨(statics): Add .envrc to base template by Romain Deville ([`2bc38ab`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/2bc38ab073eabf934b477058d846e9ab40cfdb42)) 🔏
+
 ## v0.8.0 (2024-07-06)
 
 ### ✨ Minor
@@ -15,6 +22,7 @@
 
 ### 🔊 Others
 
+  * 🔖 v0.8.0 (NO-CI) by Python Semantic Release [bot] ([`1710993`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/171099348b6d6e200ec7624a7804a09360f1c337))
   * 🔨 Update .envrc from DGS template by Romain Deville ([`b86afe1`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/b86afe1a0bddc8f5033b55570ebcf0aac245d375)) 🔏
 
 ## v0.7.5 (2024-07-02)
