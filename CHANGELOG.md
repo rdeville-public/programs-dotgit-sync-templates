@@ -1,12 +1,32 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.8.0 (2024-07-06)
+
+### ✨ Minor
+
+  * ✨ Make devbox init_hook executable by Romain Deville ([`f0f9892`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/f0f989243d363531ad611684564e17c725f77af1)) 🔏
+
+### 🩹 Patch
+
+  * ⚡️ Improve format of some statics and template (!37) by Romain Deville ([`26baba5`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/26baba5e80bad07b88b670c12b1d5ebec3292457))
+  * ✏️(statics): Fix typo in base-pre-commit by Romain Deville ([`1bb7aae`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/1bb7aae7a9a9380e780af1e343d40b1650a51fbc)) 🔏
+  * ✏️(templates): Fix typo in nix-flake by Romain Deville ([`df5088d`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/df5088d03d4a159fa7ed22e8f442d0dfe396cb34)) 🔏
+
+### 🔊 Others
+
+  * 🔨 Update .envrc from DGS template by Romain Deville ([`b86afe1`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/b86afe1a0bddc8f5033b55570ebcf0aac245d375)) 🔏
+
 ## v0.7.5 (2024-07-02)
 
 ### 🩹 Patch
 
   * ⚡️ Improve nix flake templates (!36) by Romain Deville ([`a097cb7`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/a097cb76e524d85bddd83c4f01a8470456d83920))
   * ⚡️ Improve nix flake templates by Romain Deville ([`235a356`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/235a356b1e364d50009127792ee1faab8b02b9cc)) 🔏
+
+### 🔊 Others
+
+  * 🔖 v0.7.5 (NO-CI) by Python Semantic Release [bot] ([`eb31ca6`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/eb31ca67385103efaa1d336bb56c0a066b5b24aa))
 
 ## v0.7.4 (2024-07-01)
 
