@@ -1,12 +1,28 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.9.1 (2024-07-13)
+
+### 🩹 Patch
+
+  * ✏️(templates): Update flake.nix to reduce fmt diff (!40) by Romain Deville ([`929f84a`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/929f84a47cabf7aec79d0e07f96943f59d5099a7))
+  * ✏️(templates): Update flake.nix to reduce fmt diff by Romain Deville ([`4abee26`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/4abee26dd043b8427f57dfe48d99f5f0f07b3845)) 🔏
+
+### 🔊 Others
+
+  * 🎨(templates): Update nix-HM-module example (!39) by Romain Deville ([`32f016f`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/32f016f3291599f000b240525f7a6f3341b5028b))
+  * 🎨(templates): Update nix-HM-module example by Romain Deville ([`3bbc3f8`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/3bbc3f818d771b46952469efc316124943f0cfb1)) 🔏
+
 ## v0.9.0 (2024-07-06)
 
 ### ✨ Minor
 
   * ✨(statics): Add .envrc to base template (!38) by Romain Deville ([`45352f2`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/45352f20796e1001bf72ade6b9932853125748b8))
   * ✨(statics): Add .envrc to base template by Romain Deville ([`2bc38ab`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/2bc38ab073eabf934b477058d846e9ab40cfdb42)) 🔏
+
+### 🔊 Others
+
+  * 🔖 v0.9.0 (NO-CI) by Python Semantic Release [bot] ([`2209f48`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/2209f48f4430db5cbe5efc0668ef0471b582b82b))
 
 ## v0.8.0 (2024-07-06)
 
