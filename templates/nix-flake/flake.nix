@@ -38,10 +38,7 @@
     # END DOTGIT-SYNC BLOCK EXCLUDED NIX_FLAKE_INPUT
   };
 
-  outputs = inputs @ {
-    self,
-    ...
-  }: let
+  outputs = inputs @ {self, ...}: let
     pkgsForSystem = system:
       import inputs.nixpkgs {
         inherit system;
@@ -57,7 +54,6 @@
       "x86_64-darwin"
       "aarch64-darwin"
     ];
-
     # BEGIN DOTGIT-SYNC BLOCK EXCLUDED NIX_FLAKE_CUSTOM_VARS
 
     # END DOTGIT-SYNC BLOCK EXCLUDED NIX_FLAKE_CUSTOM_VARS
