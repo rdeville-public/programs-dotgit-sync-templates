@@ -1,6 +1,17 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.9.2 (2024-07-14)
+
+### 🩹 Patch
+
+  * 🐛 Fix DGS Static TPL, remove need (!41) by Romain Deville ([`d8214c1`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/d8214c13376ffa189e0c7341890d9e99b8e04acb))
+  * 🐛(statics): Remove needs in DGS CI by Romain Deville ([`f8e96a2`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/f8e96a2c7819d5f5fe224dbdf23741836ac3e4b2)) 🔏
+
+### 🔊 Others
+
+  * 💚 Remove need in DGS Update CI by Romain Deville ([`2e1e281`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/2e1e281434ed23d19c02574e8cc26743da62227d)) 🔏
+
 ## v0.9.1 (2024-07-13)
 
 ### 🩹 Patch
@@ -12,6 +23,7 @@
 
   * 🎨(templates): Update nix-HM-module example (!39) by Romain Deville ([`32f016f`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/32f016f3291599f000b240525f7a6f3341b5028b))
   * 🎨(templates): Update nix-HM-module example by Romain Deville ([`3bbc3f8`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/3bbc3f818d771b46952469efc316124943f0cfb1)) 🔏
+  * 🔖 v0.9.1 (NO-CI) by Python Semantic Release [bot] ([`169c241`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/169c241d1441a3117ab8d8d2ffe047ba5257c500))
 
 ## v0.9.0 (2024-07-06)
 
