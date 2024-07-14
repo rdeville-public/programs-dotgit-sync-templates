@@ -2,8 +2,6 @@
 "Check dotgit-sync Update":
   image: alpine:latest
   stage: pre-ci
-  needs:
-    - "Lint All Commit Since Default Branch"
   variables:
     DOTGIT_BRANCH: chore/dotgit-sync-template-update
     GIT_USER_NAME: "Dotgit Sync [bot]"

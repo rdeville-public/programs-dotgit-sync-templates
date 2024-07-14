@@ -8,8 +8,6 @@ Check dotgit-sync Update:
   - source .env/bin/activate
   - pip3 install git+https://framagit.org/rdeville-public/programs/dotgit-sync
   image: alpine:latest
-  needs:
-  - Lint All Commit Since Default Branch
   rules:
   - if: $CI_PIPELINE_SOURCE == "schedule" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
   - when: never
