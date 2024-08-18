@@ -1,5 +1,13 @@
 # BEGIN DOTGIT-SYNC BLOCK MANAGED YAML_MERGED
 Check dotgit-sync Update:
+  image: alpine:latest
+  stage: pre-ci
+  variables:
+    DOTGIT_BRANCH: chore/dotgit-sync-template-update
+    GIT_USER_NAME: Dotgit Sync [bot]
+    GIT_USER_EMAIL: code+bot.dotgit-sync@romaindeville.fr
+    COMMIT_MESSAGE: "\u2B06\uFE0F Update templated files from dotgit-sync"
+    GITLAB_HOST: ${CI_SERVER_HOST}
   before_script:
   - apk add --update --no-cache git python3 py3-pip glab
   - git config --global user.email "${GIT_USER_EMAIL}"
@@ -7,12 +15,6 @@ Check dotgit-sync Update:
   - python3 -m venv .env
   - source .env/bin/activate
   - pip3 install git+https://framagit.org/rdeville-public/programs/dotgit-sync
-  image: alpine:latest
-  rules:
-  - if: $CI_PIPELINE_SOURCE == "schedule" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-  - when: never
-  - if: $CI_PIPELINE_SOURCE == "trigger" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-  - if: $CI_PIPELINE_SOURCE == "pipeline" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
   script:
   - git fetch --all
   - git checkout "${CI_DEFAULT_BRANCH}"
@@ -64,11 +66,7 @@ Check dotgit-sync Update:
         --set-upstream origin \
         "${DOTGIT_BRANCH}"
     fi
-  stage: pre-ci
-  variables:
-    COMMIT_MESSAGE: "\u2B06\uFE0F Update templated files from dotgit-sync"
-    DOTGIT_BRANCH: chore/dotgit-sync-template-update
-    GITLAB_HOST: ${CI_SERVER_HOST}
-    GIT_USER_EMAIL: code+bot.dotgit-sync@romaindeville.fr
-    GIT_USER_NAME: Dotgit Sync [bot]
+  rules:
+  - if: $CI_PIPELINE_SOURCE == "pipeline" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  - when: never
 # END DOTGIT-SYNC BLOCK MANAGED YAML_MERGED
