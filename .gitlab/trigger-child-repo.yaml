@@ -7,10 +7,21 @@ Trigger DotGit Sync Child Repos:
       - namespace: rdeville-public/programs
         repos:
           - dotgit-sync
+          - dotgit-sync-template
       - namespace: rdeville-public/dotfiles
         repos:
-          - nixos-config
+          - awesome
           - direnv
+          - neovim
+          - nixos-config
+          - shell
+          - tmux
+      - namespace: rdeville-private/dotfiles
+        repos:
+          - direnv-data
+          - myrepos-data
+          - nixos-data
+          - tmux-data
   trigger:
     project: ${namespace}/${repos}
   rules:
