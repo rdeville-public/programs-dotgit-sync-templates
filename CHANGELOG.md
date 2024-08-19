@@ -1,6 +1,25 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.10.0 (2024-08-19)
+
+### ✨ Minor
+
+  * ✨ Add some OpenTofu templates (!45) by Romain Deville ([`a935319`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/a93531902623fdcef967a695c9aadebd298f3a12))
+  * ✨(statics): Add OpenTofu pre-commit template by Romain Deville ([`e0e20dd`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/e0e20dde7ffb9711fc6bd157f7968718638af9b7)) 🔏
+  * ✨(statics): Add OpenTofu Gitlab CI template by Romain Deville ([`df82779`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/df827793895a5786d6687699a84b1619be841d22)) 🔏
+  * ✨(statics): Add OpenTofu basic template by Romain Deville ([`dfe70db`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/dfe70db0b2663ba06c483b4eda758945f939f135)) 🔏
+
+### 🔊 Others
+
+  * 👷 Update CI triggering repos using DGS (!42) by Romain Deville ([`3887f3c`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/3887f3ceec4f2895b796afc1e40618d73a6af205))
+  * 👷 Update CI triggering repos using DGS by Romain Deville ([`6873b99`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/6873b99e375daa0b17e5730ce8cf4c9c1d354740)) 🔏
+  * 💚 Fix typo in CI triggering repos using DGS (!44) by Romain Deville ([`793cf2f`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/793cf2f3119e1dcf6ff5a651f9a6927b1557b333))
+  * 💚 Fix typo in CI triggering repos using DGS by Romain Deville ([`6abd090`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/6abd090799c9b9f102d479380a3408e7a4e97265)) 🔏
+  * 💚 Update CI from DGS (!43) by Romain Deville ([`82a87c4`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/82a87c44dbb3103d1417b24edae272bf9c45e787))
+  * 💚 Update CI from DGS by Romain Deville ([`9a689ba`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/9a689ba60aef720af9297e2ff015f5c34f2a036b)) 🔏
+  * 📝 Add Idea Improvements Section in README.md by Romain Deville ([`42a74fc`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/42a74fc46813797b6d632555bb38058eff35d8d0)) 🔏
+
 ## v0.9.2 (2024-07-14)
 
 ### 🩹 Patch
@@ -11,6 +30,7 @@
 ### 🔊 Others
 
   * 💚 Remove need in DGS Update CI by Romain Deville ([`2e1e281`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/2e1e281434ed23d19c02574e8cc26743da62227d)) 🔏
+  * 🔖 v0.9.2 (NO-CI) by Python Semantic Release [bot] ([`c006726`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/c006726b78f5af23140e5b4eef6a41ea1c4d5de7))
 
 ## v0.9.1 (2024-07-13)
 
