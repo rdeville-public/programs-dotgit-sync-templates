@@ -84,6 +84,39 @@ And, if your repository are hosted in gitlab instances, you can trigger their
 pipelines to update files when this repository is updated. See for instance file
 `.gitlab/trigger-child-repo.yaml`.
 
+## 💡 Idea of improvements
+
+### Features
+
+* [ ] Allow enforcing YAML or JSON content
+* [ ] Allow to define dependencies between templates
+
+### Terraform
+
+Not in order:
+
+* [ ] Add [tfdocs](https://github.com/terraform-docs/terraform-docs)
+  * [ ] As [pre-commit-opentofu](https://github.com/tofuutils/pre-commit-opentofu)
+  * [ ] In Gitlab CI
+* [ ] Add [checkov](https://github.com/bridgecrewio/checkov)
+  * [ ] As [pre-commit-opentofu](https://github.com/tofuutils/pre-commit-opentofu)
+  * [ ] In Gitlab CI
+* [ ] Add [terrascan](https://github.com/tenable/terrascan)
+  * [ ] As [pre-commit-opentofu](https://github.com/tofuutils/pre-commit-opentofu)
+  * [ ] In Gitlab CI
+* [ ] Add [trivy](https://github.com/aquasecurity/trivy)
+  * [ ] As [pre-commit-opentofu](https://github.com/tofuutils/pre-commit-opentofu)
+  * [ ] In Gitlab CI
+* [ ] Add [infracost](https://github.com/infracost/infracost)
+  * [ ] As [pre-commit-opentofu](https://github.com/tofuutils/pre-commit-opentofu)
+  * [ ] In Gitlab CI
+* [ ] Add [tfupdate](https://github.com/minamijoyo/tfupdate)
+  * [ ] As [pre-commit-opentofu](https://github.com/tofuutils/pre-commit-opentofu)
+  * [ ] In Gitlab CI
+* [ ] Add [hcledit](https://github.com/minamijoyo/hcledit)
+  * [ ] As [pre-commit-opentofu](https://github.com/tofuutils/pre-commit-opentofu)
+  * [ ] In Gitlab CI
+
 <!-- END DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_README -->
 ## 🤝 Contributing
 
