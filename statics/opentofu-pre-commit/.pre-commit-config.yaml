@@ -1,0 +1,11 @@
+repos:
+    # OpenTofu hooks
+    # ------------------------------------------------------------------------
+  - repo: https://github.com/tofuutils/pre-commit-opentofu
+    rev: v1.0.2
+    hooks:
+      - id: tofu_fmt
+        args:
+          - --args=-recursive
+          - --args=-diff
+      - id: tofu_validate
