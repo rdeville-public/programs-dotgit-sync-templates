@@ -7,7 +7,7 @@ Trigger DotGit Sync Child Repos:
       - namespace: rdeville-public/programs
         repos:
           - dotgit-sync
-          - dotgit-sync-template
+          - dotgit-sync-templates
       - namespace: rdeville-public/dotfiles
         repos:
           - awesome
