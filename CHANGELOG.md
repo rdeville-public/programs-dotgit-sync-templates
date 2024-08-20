@@ -1,6 +1,13 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.10.2 (2024-08-20)
+
+### 🩹 Patch
+
+  * 🐛(statics): Fix OpenTofu Gitlab CI template (!48) by Romain Deville ([`48b27d2`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/48b27d2cd12e29d92b261d1097ae1d17a37d8002))
+  * 🐛(statics): Fix OpenTofu Gitlab CI template by Romain Deville ([`257411c`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/257411cf97ecba254e5326d758e19497cd787fb3)) 🔏
+
 ## v0.10.1 (2024-08-20)
 
 ### 🩹 Patch
@@ -10,6 +17,7 @@
 
 ### 🔊 Others
 
+  * 🔖 v0.10.1 (NO-CI) by Python Semantic Release [bot] ([`ef089e9`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/ef089e9b86c3b871fafb3c79346e2650564e93ae))
   * 🚚(statics): Rename OpenTofu CI Gitlab folder (!46) by Romain Deville ([`097a9a2`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/097a9a23bda55f22ba6cdaad283bbf53e0ff99e4))
   * 🚚(statics): Rename OpenTofu CI Gitlab folder by Romain Deville ([`6731810`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/67318100393d68c04e08195d3086e274f5b66576))
 
