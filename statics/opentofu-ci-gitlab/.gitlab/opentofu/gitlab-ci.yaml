@@ -1,8 +1,17 @@
 ---
 "Validate OpenTofu":
-  image: ghcr.io/opentofu/opentofu:latest
+  image: alpine:latest
   stage: lint
   before_script:
+    - curl
+        --proto '=https'
+        --tlsv1.2
+        -fsSL
+        https://get.opentofu.org/install-opentofu.sh
+        -o install-opentofu.sh
+    - chmod +x install-opentofu.sh
+    - ./install-opentofu.sh --install-method apk
+    - rm -f install-opentofu.sh
     - tofu init -backend=false
   script:
     - tofu validate
