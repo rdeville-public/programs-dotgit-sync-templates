@@ -3,6 +3,8 @@
   image: alpine:latest
   stage: lint
   before_script:
+    - apk add --update --no-cache
+       curl
     - curl
         --proto '=https'
         --tlsv1.2
