@@ -1,6 +1,18 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.10.1 (2024-08-20)
+
+### 🩹 Patch
+
+  * 🐛(statics): Update OpenTofu Gitlab CI (!47) by Romain Deville ([`39a3507`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/39a3507ca3876cde466458faaf1b97aa0d198865))
+  * 🐛(statics): Update OpenTofu Gitlab CI by Romain Deville ([`7496723`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/74967230de51a9601ebd27f491e0eefb72a15209)) 🔏
+
+### 🔊 Others
+
+  * 🚚(statics): Rename OpenTofu CI Gitlab folder (!46) by Romain Deville ([`097a9a2`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/097a9a23bda55f22ba6cdaad283bbf53e0ff99e4))
+  * 🚚(statics): Rename OpenTofu CI Gitlab folder by Romain Deville ([`6731810`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/67318100393d68c04e08195d3086e274f5b66576))
+
 ## v0.10.0 (2024-08-19)
 
 ### ✨ Minor
@@ -19,6 +31,7 @@
   * 💚 Update CI from DGS (!43) by Romain Deville ([`82a87c4`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/82a87c44dbb3103d1417b24edae272bf9c45e787))
   * 💚 Update CI from DGS by Romain Deville ([`9a689ba`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/9a689ba60aef720af9297e2ff015f5c34f2a036b)) 🔏
   * 📝 Add Idea Improvements Section in README.md by Romain Deville ([`42a74fc`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/42a74fc46813797b6d632555bb38058eff35d8d0)) 🔏
+  * 🔖 v0.10.0 (NO-CI) by Python Semantic Release [bot] ([`3567b32`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/3567b326acb359c9201f7a26b81c1f6e5c10bcff))
 
 ## v0.9.2 (2024-07-14)
 
