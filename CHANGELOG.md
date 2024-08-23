@@ -1,12 +1,28 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.11.0 (2024-08-23)
+
+### ✨ Minor
+
+  * ✨ Add tf-docs statics configuration (!49) by Romain Deville ([`a75c69f`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/a75c69fddd8102fe3c7beb935a600c2d577c443d))
+  * ✨(statics/opentofu-pre-commit): Add tf-docs pre-commit hooks by Romain Deville ([`df51f03`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/df51f035042ba3676a547686a1ac27ab527642c4)) 🔏
+  * ✨(statics/opentofu): Add tf-docs to devbox.json by Romain Deville ([`005cb2e`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/005cb2e28ac52047e61494377a76dad41b189bb8)) 🔏
+
+### 🔊 Others
+
+  * 👷(statics/opentofu-ci-gitlab): Add tf-docs jobs in gitlab-ci by Romain Deville ([`4a4eef2`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/4a4eef2101630b512f57962e0b0b4ddcf513ba78)) 🔏
+
 ## v0.10.2 (2024-08-20)
 
 ### 🩹 Patch
 
   * 🐛(statics): Fix OpenTofu Gitlab CI template (!48) by Romain Deville ([`48b27d2`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/48b27d2cd12e29d92b261d1097ae1d17a37d8002))
   * 🐛(statics): Fix OpenTofu Gitlab CI template by Romain Deville ([`257411c`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/257411cf97ecba254e5326d758e19497cd787fb3)) 🔏
+
+### 🔊 Others
+
+  * 🔖 v0.10.2 (NO-CI) by Python Semantic Release [bot] ([`969612e`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/969612e26679451e97590252d9680d6eb0345f10))
 
 ## v0.10.1 (2024-08-20)
 
