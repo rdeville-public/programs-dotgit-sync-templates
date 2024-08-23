@@ -1,6 +1,22 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.12.1 (2024-08-23)
+
+### 🩹 Patch
+
+  * ✏️(statics/base-ci-gitlab): Fix typo in rule in .gitlab-ci.yml by Romain Deville ([`25e338a`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/25e338af66711c2ee7d88c2d6c4d6f04313d4745)) 🔏
+  * 🐛(statics/base-ci-gitlab): Update rules for base gitlab-ci by Romain Deville ([`d528933`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/d528933c921ff7dbc32216351da99f102bbc8e61)) 🔏
+
+### 🔊 Others
+
+  * 🎨 Improve nix templates for nix fmt (!51) by Romain Deville ([`eca422c`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/eca422cb16821e61a723be23863e642a5d068cd9))
+  * 🎨(templates/nix-flake): Update flake.nix for nix fmt by Romain Deville ([`0b87d52`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/0b87d52d1ba23485629dfd3875ddf08894305d26)) 🔏
+  * 🎨(templates/nix-devenv): Update template for nix fmt by Romain Deville ([`bab8880`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/bab8880208a0a2891ed04f34a4ac11029863a234)) 🔏
+  * 👷(CI): Update .gitlab-ci.yaml from DGS by Romain Deville ([`20e5c64`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/20e5c64646ae54210d6ce13fe1c95e9e13f50317)) 🔏
+  * 💚 Fix gitlab-ci base config and template (!52) by Romain Deville ([`875f7d7`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/875f7d71bd45bb9369d93806eae5a2e8aa0563d1))
+  * 💚 Fix .gitlab-ci.yml from DGS by Romain Deville ([`ba8d1be`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/ba8d1bef86bc88fda1c3f2733656163b158b8a61)) 🔏
+
 ## v0.12.0 (2024-08-23)
 
 ### ✨ Minor
@@ -11,6 +27,7 @@
 ### 🔊 Others
 
   * 👷(statics/base-ci-gitlab): Make Gitlab CI run only on merge request by Romain Deville ([`e29a778`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/e29a7786e6d244aeea4e636ed5f6fefbb79d751f)) 🔏
+  * 🔖 v0.12.0 (NO-CI) by Python Semantic Release [bot] ([`1efc095`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/1efc095ff85dd1fa0fde831102a45c7b1c133924))
 
 ## v0.11.0 (2024-08-23)
 
