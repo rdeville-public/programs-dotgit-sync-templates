@@ -1,10 +1,10 @@
 ---
-"Validate OpenTofu":
+"OpenTofu Validate":
   image: alpine:latest
   stage: lint
   before_script:
     - apk add --update --no-cache
-       curl
+        curl
     - curl
         --proto '=https'
         --tlsv1.2
@@ -17,6 +17,31 @@
     - tofu init -backend=false
   script:
     - tofu validate
+  rules:
+    # Do Not run when called from upstream CI as its DGS template update
+    - if: $CI_PIPELINE_SOURCE == "pipeline" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      when: never
+      # Always run this job to ensure commit follow specific syntax as soon as
+      # possible
+    - when: always
+
+
+"OpenTofu Documentation":
+  image: alpine:latest
+  stage: lint
+  before_script:
+    - apk add --update --no-cache
+        git
+        terraform-docs
+  script:
+    - terraform-docs ./
+    # Should return 0 if not diff
+    - if ! git diff --quiet
+      then
+        echo "ERROR - Modules (and submodules) documentations are not up-to-date"
+        echo "ERROR - Please run \`terraform-docs ./\` and commit changes"
+        exit 1
+      fi
   rules:
     # Do Not run when called from upstream CI as its DGS template update
     - if: $CI_PIPELINE_SOURCE == "pipeline" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
