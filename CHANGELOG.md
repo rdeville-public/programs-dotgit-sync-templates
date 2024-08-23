@@ -1,6 +1,17 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.12.0 (2024-08-23)
+
+### ✨ Minor
+
+  * ✨(statics/opentofu): Add .terraform-docs.yml config (!50) by Romain Deville ([`9769aa1`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/9769aa1966f590620289fe1cec60b16dc3855d32))
+  * ✨(statics/opentofu): Add .terraform-docs.yml config by Romain Deville ([`9c98179`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/9c9817932cd83509c2d68ccb26564a05e17e7c27)) 🔏
+
+### 🔊 Others
+
+  * 👷(statics/base-ci-gitlab): Make Gitlab CI run only on merge request by Romain Deville ([`e29a778`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/e29a7786e6d244aeea4e636ed5f6fefbb79d751f)) 🔏
+
 ## v0.11.0 (2024-08-23)
 
 ### ✨ Minor
@@ -12,6 +23,7 @@
 ### 🔊 Others
 
   * 👷(statics/opentofu-ci-gitlab): Add tf-docs jobs in gitlab-ci by Romain Deville ([`4a4eef2`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/4a4eef2101630b512f57962e0b0b4ddcf513ba78)) 🔏
+  * 🔖 v0.11.0 (NO-CI) by Python Semantic Release [bot] ([`6dd9d92`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/6dd9d923ab22438ac53df5de2df1673e986a42d4))
 
 ## v0.10.2 (2024-08-20)
 
