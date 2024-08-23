@@ -2,14 +2,13 @@
   pkgs ? import <nixpkgs>,
   config,
   lib,
-# BEGIN DOTGIT-SYNC BLOCK EXCLUDED NIX_DEVENV_CUSTOM
+  # BEGIN DOTGIT-SYNC BLOCK EXCLUDED NIX_DEVENV_CUSTOM
   ...
-}:
-{
+}: {
   packages = with pkgs; [];
 
   scripts = {};
-# END DOTGIT-SYNC BLOCK EXCLUDED NIX_DEVENV_CUSTOM
+  # END DOTGIT-SYNC BLOCK EXCLUDED NIX_DEVENV_CUSTOM
 
   enterShell = ''
     CYAN="\033[36m"
