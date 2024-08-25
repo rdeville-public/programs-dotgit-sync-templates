@@ -1,6 +1,13 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.12.2 (2024-08-25)
+
+### 🩹 Patch
+
+  * 🐛(statics/opentofu-ci-gitlab): Fix CI related to tf-docs (!53) by Romain Deville ([`8d7985f`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/8d7985f1ed76e0a5399e0ab4fbc14db701515e98))
+  * 🐛(statics/opentofu-ci-gitlab): Fix CI related to tf-docs by Romain Deville ([`0dde4f2`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/0dde4f21c30421213ca162441a7ca73e431b8aeb)) 🔏
+
 ## v0.12.1 (2024-08-23)
 
 ### 🩹 Patch
@@ -16,6 +23,7 @@
   * 👷(CI): Update .gitlab-ci.yaml from DGS by Romain Deville ([`20e5c64`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/20e5c64646ae54210d6ce13fe1c95e9e13f50317)) 🔏
   * 💚 Fix gitlab-ci base config and template (!52) by Romain Deville ([`875f7d7`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/875f7d71bd45bb9369d93806eae5a2e8aa0563d1))
   * 💚 Fix .gitlab-ci.yml from DGS by Romain Deville ([`ba8d1be`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/ba8d1bef86bc88fda1c3f2733656163b158b8a61)) 🔏
+  * 🔖 v0.12.1 (NO-CI) by Python Semantic Release [bot] ([`01032f6`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/01032f6cb8ba45cbe6402e957449d16a37821288))
 
 ## v0.12.0 (2024-08-23)
 
