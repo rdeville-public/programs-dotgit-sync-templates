@@ -1,12 +1,27 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.12.3 (2024-08-26)
+
+### 🩹 Patch
+
+  * 🐛 Fix base Gitlab CI workflow rules and remove anchors (!54) by Romain Deville ([`3e1c401`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/3e1c4011f5d0f74b2c837100acf51f153f9211a6))
+  * 🐛 Fix base Gitlab CI workflow rules and remove anchors by Romain Deville ([`9328918`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/9328918d557bc2a4b8185a6dd8a0290ae8fd9141)) 🔏
+
+### 🔊 Others
+
+  * 💚 Update CI from DGS by Romain Deville ([`e1c40c7`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/e1c40c77054680f2318f37cba2cb2e6fa12e16d1)) 🔏
+
 ## v0.12.2 (2024-08-25)
 
 ### 🩹 Patch
 
   * 🐛(statics/opentofu-ci-gitlab): Fix CI related to tf-docs (!53) by Romain Deville ([`8d7985f`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/8d7985f1ed76e0a5399e0ab4fbc14db701515e98))
   * 🐛(statics/opentofu-ci-gitlab): Fix CI related to tf-docs by Romain Deville ([`0dde4f2`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/0dde4f21c30421213ca162441a7ca73e431b8aeb)) 🔏
+
+### 🔊 Others
+
+  * 🔖 v0.12.2 (NO-CI) by Python Semantic Release [bot] ([`3c3ebe5`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/3c3ebe581c2d488e461bfca561c92f1d1d23c449))
 
 ## v0.12.1 (2024-08-23)
 
