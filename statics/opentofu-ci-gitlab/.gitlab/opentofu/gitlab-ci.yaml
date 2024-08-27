@@ -18,7 +18,7 @@
     - tofu validate
   rules:
     # Do Not run when called from upstream CI as its DGS template update
-    - if: $CI_PIPELINE_SOURCE == "pipeline" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    - if: $CI_PIPELINE_SOURCE =~ /(parent_pipeline|pipeline)/
       when: never
       # Always run this job to ensure commit follow specific syntax as soon as
       # possible
@@ -49,7 +49,7 @@
       fi
   rules:
     # Do Not run when called from upstream CI as its DGS template update
-    - if: $CI_PIPELINE_SOURCE == "pipeline" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    - if: $CI_PIPELINE_SOURCE =~ /(parent_pipeline|pipeline)/
       when: never
       # Always run this job to ensure commit follow specific syntax as soon as
       # possible
