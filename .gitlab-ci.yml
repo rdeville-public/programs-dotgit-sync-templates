@@ -16,7 +16,7 @@ workflow:
       when: never
       # Allow pipelines from MR request to default branch
     - if: $CI_PIPELINE_SOURCE == "merge_request_event" && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == $CI_DEFAULT_BRANCH
-      # Disable pipelines most of the time
+      # Allow pipelines from specific source source on main branch
     - when: never
 
 variables:
