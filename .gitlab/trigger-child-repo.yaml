@@ -32,7 +32,7 @@ Trigger DGS Child Repos:
 Trigger DGS Itself:
   stage: post-ci
   trigger:
-    include: .gitlab/dotgit-sync/gitlab-ci.yaml
+    include: .gitlab-ci.yml
   rules:
       # Only run on main branch
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
