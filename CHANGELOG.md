@@ -1,6 +1,22 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.12.4 (2024-08-27)
+
+### 🩹 Patch
+
+  * 🐛(statics): Fix all CI_PIPELINE_SOURCE with parent_pipeline (!57) by Romain Deville ([`de30673`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/de30673cf2b61e62d5cc654cb625ee0f960885b6))
+  * 🐛(statics): Update CI_PIPELINE_SOURCE rules to include parent_pipeline by Romain Deville ([`b79d0bc`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/b79d0bc0a277e2bbf9625df3fd7ffd7377606cdd)) 🔏
+
+### 🔊 Others
+
+  * 👷 Update CI from DGS and fix DGS trigger for itself (!55) by Romain Deville ([`29e17bb`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/29e17bb2bdcf25b861509e4f860bbe76ae999c4f))
+  * 👷 Update DGS CI which trigger update by Romain Deville ([`a4688aa`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/a4688aaf34356f16e9f671fb96324a8bc398bfaa)) 🔏
+  * 💚 Update CI from DGS template by Romain Deville ([`2ddc371`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/2ddc371973841d2e7696231a9ef9b1970a8b11f3)) 🔏
+  * 💚 Fix trigger CI for itself (!56) by Romain Deville ([`b615341`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/b61534143f8f7b4ce6a68bde07e1802d79a283f1))
+  * 💚 Fix trigger CI for itself by Romain Deville ([`709c0b0`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/709c0b0074bac87d56888e43701b594303571ea3)) 🔏
+  * 💚 Fix CI from DGS Template by Romain Deville ([`adfedb2`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/adfedb26ffb5a8459e6e64e2af6a7be68348cb0d)) 🔏
+
 ## v0.12.3 (2024-08-26)
 
 ### 🩹 Patch
@@ -11,6 +27,7 @@
 ### 🔊 Others
 
   * 💚 Update CI from DGS by Romain Deville ([`e1c40c7`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/e1c40c77054680f2318f37cba2cb2e6fa12e16d1)) 🔏
+  * 🔖 v0.12.3 (NO-CI) by Python Semantic Release [bot] ([`3963c1a`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/3963c1a0aae730278c259b8c2994eefb3c3aa9c7))
 
 ## v0.12.2 (2024-08-25)
 
