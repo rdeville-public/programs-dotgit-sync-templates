@@ -24,6 +24,9 @@ Trigger DGS Child Repos:
   trigger:
     project: ${namespace}/${repos}
   rules:
+      # Do Not run when called from upstream CI as its DGS template update
+    - if: $CI_PIPELINE_SOURCE =~ /(parent_pipeline|pipeline)/
+      when: never
       # Only run on main branch
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
     - when: never
@@ -34,6 +37,9 @@ Trigger DGS Itself:
   trigger:
     include: .gitlab-ci.yml
   rules:
+      # Do Not run when called from upstream CI as its DGS template update
+    - if: $CI_PIPELINE_SOURCE =~ /(parent_pipeline|pipeline)/
+      when: never
       # Only run on main branch
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
     - when: never
