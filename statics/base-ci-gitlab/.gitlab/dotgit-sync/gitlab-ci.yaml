@@ -74,6 +74,6 @@
       fi
   rules:
       # Force pipelines when called from upstream CI
-    - if: $CI_PIPELINE_SOURCE == "pipeline" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    - if: $CI_PIPELINE_SOURCE =~ /(parent_pipeline|pipeline)/
       # Do not run otherwise
     - when: never
