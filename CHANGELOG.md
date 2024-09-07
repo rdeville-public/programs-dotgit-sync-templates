@@ -1,6 +1,13 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.12.6 (2024-09-07)
+
+### 🩹 Patch
+
+  * ⚡️(statics/opentofu): Improve terraform-docs default for empty string (!60) by Romain Deville ([`b0660a9`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/b0660a96f15cde9c92d20a165dcdc675c0b1a4a6))
+  * ⚡️(statics/opentofu): Improve terraform-docs default for empty string by Romain Deville ([`10f662f`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/10f662f253c0bceed5a083ba75f69a93123ca96c)) 🔏
+
 ## v0.12.5 (2024-09-07)
 
 ### 🩹 Patch
@@ -12,6 +19,7 @@
 
   * 💚 Fix CI trigger child to update DGS to not run recursively (!58) by Romain Deville ([`95555c7`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/95555c79ed92702ebe0e0af870558948280e4cdf))
   * 💚 Fix CI trigger child to update DGS to not run recursively by Romain Deville ([`2fc87e5`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/2fc87e57ac435318eb26fa0fd97ed40f914bc04c)) 🔏
+  * 🔖 v0.12.5 (NO-CI) by Python Semantic Release [bot] ([`eaa492e`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/eaa492e465a378aa9fce63bbf9722a106b9f90cf))
 
 ## v0.12.4 (2024-08-27)
 
