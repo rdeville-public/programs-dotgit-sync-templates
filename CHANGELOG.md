@@ -1,6 +1,18 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.12.5 (2024-09-07)
+
+### 🩹 Patch
+
+  * 🐛 Fix flake.nix exclude custom_vars location (!59) by Romain Deville ([`2c2f849`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/2c2f84923799d8faa1d228743db1bb7af7b36bca))
+  * 🐛 Fix flake.nix exclude custom_vars location by Romain Deville ([`259d61b`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/259d61bf17a6c8dddc9261f48ae909e3cf607077)) 🔏
+
+### 🔊 Others
+
+  * 💚 Fix CI trigger child to update DGS to not run recursively (!58) by Romain Deville ([`95555c7`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/95555c79ed92702ebe0e0af870558948280e4cdf))
+  * 💚 Fix CI trigger child to update DGS to not run recursively by Romain Deville ([`2fc87e5`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/2fc87e57ac435318eb26fa0fd97ed40f914bc04c)) 🔏
+
 ## v0.12.4 (2024-08-27)
 
 ### 🩹 Patch
@@ -16,6 +28,7 @@
   * 💚 Fix trigger CI for itself (!56) by Romain Deville ([`b615341`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/b61534143f8f7b4ce6a68bde07e1802d79a283f1))
   * 💚 Fix trigger CI for itself by Romain Deville ([`709c0b0`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/709c0b0074bac87d56888e43701b594303571ea3)) 🔏
   * 💚 Fix CI from DGS Template by Romain Deville ([`adfedb2`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/adfedb26ffb5a8459e6e64e2af6a7be68348cb0d)) 🔏
+  * 🔖 v0.12.4 (NO-CI) by Python Semantic Release [bot] ([`4e8d7b5`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/4e8d7b51487d5b441d78b85276d0c15a3b36473e))
 
 ## v0.12.3 (2024-08-26)
 
