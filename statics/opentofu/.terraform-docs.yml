@@ -203,6 +203,8 @@ content: |-
     null
   {{- else if eq (print .Default) "map[]" }}
     {}
+  {{- else if eq (print .Default) "" }}
+    ""
   {{- else }}
     {{ .Default }}
   {{- end }}
