@@ -7,6 +7,11 @@ Trigger DGS Child Repos:
       - namespace: rdeville-public/programs
         repos:
           - dotgit-sync
+      - namespace: rdeville-public/terraform
+        repos:
+          - module-gitlab-groups
+          - module-github-organization
+          - module-github-repository
       - namespace: rdeville-public/dotfiles
         repos:
           - awesome
