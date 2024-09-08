@@ -1,12 +1,28 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.12.7 (2024-09-08)
+
+### 🩹 Patch
+
+  * ⚡️(statics/opentofu): Improve terraform-docs render (!62) by Romain Deville ([`94d3d65`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/94d3d658f63ec0ff50d20a62e63d1e8aa85583d5))
+  * ⚡️(statics/opentofu): Improve terraform-docs render by Romain Deville ([`403193e`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/403193e8a5980da852882fbe8e78416b02158924)) 🔏
+
+### 🔊 Others
+
+  * 👷 Add terraform repos to child repo to update (!61) by Romain Deville ([`cda3dde`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/cda3dde2e9f96a4919200112893b9a05618ef5ba))
+  * 👷 Add terraform repos to child repo to update by Romain Deville ([`eacb95b`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/eacb95bc8fe22fd78d79531b8df124a2dde7e068)) 🔏
+
 ## v0.12.6 (2024-09-07)
 
 ### 🩹 Patch
 
   * ⚡️(statics/opentofu): Improve terraform-docs default for empty string (!60) by Romain Deville ([`b0660a9`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/b0660a96f15cde9c92d20a165dcdc675c0b1a4a6))
   * ⚡️(statics/opentofu): Improve terraform-docs default for empty string by Romain Deville ([`10f662f`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/10f662f253c0bceed5a083ba75f69a93123ca96c)) 🔏
+
+### 🔊 Others
+
+  * 🔖 v0.12.6 (NO-CI) by Python Semantic Release [bot] ([`88f06ca`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/88f06cac4f88193442f80b9453ee0ea493fa6fb6))
 
 ## v0.12.5 (2024-09-07)
 
