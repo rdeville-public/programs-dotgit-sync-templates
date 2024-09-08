@@ -4,6 +4,10 @@ version: ">= 0.18.0, < 1.0.0"
 
 content: |-
   ## ⚙️ Module Content
+
+  <details><summary>Click to reveal</summary>
+
+  ### Table of Content
   {{ if .Module.HasRequirements }}
   * [Requirements](#requirements)
   {{- end }}
@@ -224,6 +228,8 @@ content: |-
     {{- print .Description | nindent 2 }}
   {{- end }}
   {{- end }}
+
+  </details>
 
 output:
   file: "README.md"
