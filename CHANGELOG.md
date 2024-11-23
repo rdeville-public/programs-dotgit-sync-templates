@@ -1,6 +1,17 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.12.9 (2024-11-23)
+
+### 🩹 Patch
+
+  * ⬆️ Update templated files from DGS by Romain Deville ([`64d11e9`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/64d11e9138e9c41e532f3be51d0e8d69deee84aa))
+
+### 🔊 Others
+
+  * 🔥(statics/base-ci-gitlab): Remove label from DGS CI Merge Request (!64) by Romain Deville ([`4037f1b`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/4037f1b8081c0ccf9301e5a0c78ca59948810e77))
+  * 🔥(statics/base-ci-gitlab): Remove label from DGS CI Merge Request by Romain Deville ([`48b3a94`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/48b3a94da82b16c5d78999affc1340713b7f2c77))
+
 ## v0.12.8 (2024-11-23)
 
 ### 🩹 Patch
@@ -8,6 +19,10 @@
   * ⚡️(statics/basic-ci-gitlab): Update semantic-release CI (!63) by Romain Deville ([`e013afb`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/e013afba681da30e95a8ce85d9234bc7e4ffa8ee))
   * ⚡️(statics/basic-ci-gitlab): Update semantic-release CI by Romain Deville ([`4765d6c`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/4765d6c4debbcbc83f0a8c9182b19b8ca7ef369e)) 🔏
   * 🔧 Update Gitlab semantic-release from DGS template by Romain Deville ([`cdf0c6f`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/cdf0c6f7abf4f56a087e9a4ae2b9c191837c69c0)) 🔏
+
+### 🔊 Others
+
+  * 🔖 v0.12.8 (NO-CI) by Python Semantic Release [bot] ([`e2e1c7c`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/e2e1c7c4ef0cbb6d1972b9e2245a017d75e181e4))
 
 ## v0.12.7 (2024-09-08)
 
@@ -90,7 +105,4 @@
 
 ### 🔊 Others
 
-  * 🎨 Improve nix templates for nix fmt (!51) by Romain Deville ([`eca422c`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/eca422cb16821e61a723be23863e642a5d068cd9))
-  * 💚 Fix gitlab-ci base config and template (!52) by Romain Deville ([`875f7d7`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/875f7d71bd45bb9369d93806eae5a2e8aa0563d1))
-  * 💚 Fix .gitlab-ci.yml from DGS by Romain Deville ([`ba8d1be`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/ba8d1bef86bc88fda1c3f2733656163b158b8a61)) 🔏
   * 🔖 v0.12.1 (NO-CI) by Python Semantic Release [bot] ([`01032f6`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/01032f6cb8ba45cbe6402e957449d16a37821288))
