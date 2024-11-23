@@ -1,6 +1,17 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.12.10 (2024-11-23)
+
+### 🩹 Patch
+
+  * ⚡️(statics/opentofu): Update terraform-docs with opentofu URL (!65) by Romain Deville ([`e5210ae`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/e5210aea1a637e646c80f84867db7877504fb8f2))
+  * ⚡️(statics/opentofu): Update terraform-docs with opentofu URL by Romain Deville ([`c56693e`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/c56693ed30298ad03e546aa538fa3e26590c59fc))
+
+### 🔊 Others
+
+  * 💚 Fix Trigger Child CI repos list by Romain Deville ([`ae2b682`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/ae2b682e2371260c902d095a6865eff51db70d73))
+
 ## v0.12.9 (2024-11-23)
 
 ### 🩹 Patch
@@ -9,6 +20,7 @@
 
 ### 🔊 Others
 
+  * 🔖 v0.12.9 (NO-CI) by Python Semantic Release [bot] ([`5573f74`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/5573f743361900c96163f43ec391b76f11d7d5f7))
   * 🔥(statics/base-ci-gitlab): Remove label from DGS CI Merge Request (!64) by Romain Deville ([`4037f1b`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/4037f1b8081c0ccf9301e5a0c78ca59948810e77))
   * 🔥(statics/base-ci-gitlab): Remove label from DGS CI Merge Request by Romain Deville ([`48b3a94`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/48b3a94da82b16c5d78999affc1340713b7f2c77))
 
@@ -83,7 +95,6 @@
 ### 🩹 Patch
 
   * 🐛 Fix base Gitlab CI workflow rules and remove anchors (!54) by Romain Deville ([`3e1c401`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/3e1c4011f5d0f74b2c837100acf51f153f9211a6))
-  * 🐛 Fix base Gitlab CI workflow rules and remove anchors by Romain Deville ([`9328918`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/9328918d557bc2a4b8185a6dd8a0290ae8fd9141)) 🔏
 
 ### 🔊 Others
 
@@ -92,17 +103,6 @@
 
 ## v0.12.2 (2024-08-25)
 
-### 🩹 Patch
-
-  * 🐛(statics/opentofu-ci-gitlab): Fix CI related to tf-docs (!53) by Romain Deville ([`8d7985f`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/8d7985f1ed76e0a5399e0ab4fbc14db701515e98))
-  * 🐛(statics/opentofu-ci-gitlab): Fix CI related to tf-docs by Romain Deville ([`0dde4f2`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/0dde4f21c30421213ca162441a7ca73e431b8aeb)) 🔏
-
 ### 🔊 Others
 
   * 🔖 v0.12.2 (NO-CI) by Python Semantic Release [bot] ([`3c3ebe5`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/3c3ebe581c2d488e461bfca561c92f1d1d23c449))
-
-## v0.12.1 (2024-08-23)
-
-### 🔊 Others
-
-  * 🔖 v0.12.1 (NO-CI) by Python Semantic Release [bot] ([`01032f6`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/01032f6cb8ba45cbe6402e957449d16a37821288))
