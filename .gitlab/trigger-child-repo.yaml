@@ -4,28 +4,34 @@ Trigger DGS Child Repos:
   stage: post-ci
   parallel:
     matrix:
-      - namespace: rdeville-public/programs
-        repos:
-          - dotgit-sync
-      - namespace: rdeville-public/terraform
-        repos:
-          - module-gitlab-groups
-          - module-github-organization
-          - module-github-repository
+      # Public Repos
       - namespace: rdeville-public/dotfiles
         repos:
-          - awesome
+          - awesomewm
           - direnv
           - neovim
           - nixos-config
-          - shell
           - tmux
+          - zshrc
+      - namespace: rdeville-public/opentofu
+        repos:
+          - github-organization
+          - github-repository
+          - github-team
+          - github-user
+          - gitlab-group
+          - gitlab-repository
+          - gitlab-user
+      - namespace: rdeville-public/programs
+        repos:
+          - dotgit-sync
+      # Private Repos
       - namespace: rdeville-private/dotfiles
         repos:
-          - direnv-data
-          - myrepos-data
-          - nixos-data
-          - tmux-data
+          - direnv
+          - myrepos
+          - nixos
+          - tmux
   trigger:
     project: ${namespace}/${repos}
   rules:
