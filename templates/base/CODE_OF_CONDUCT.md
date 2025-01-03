@@ -1,3 +1,4 @@
+<!-- markdownlint-disable -->
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge
@@ -60,11 +61,11 @@ representative at an online or offline event.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the community leaders responsible for enforcement at:
-{% if "abuse" in code_of_conduct %}
-* [📧 {{ code_of_conduct.abuse }} \<{{ code_of_conduct.abuse }}\>](mailto:{{ code_of_conduct.abuse }})
+{% if "code_of_conduct" in extra and abuse" in extra.code_of_conduct %}
+* [📧 {{ extra.code_of_conduct.abuse }} \<{{ extra.code_of_conduct.abuse }}\>](mailto:{{ extra.code_of_conduct.abuse }})
 {% else %}
-{% for maintainer in maintainers %}
-* [📧 {{ maintainer.mail }} \<{{ maintainer.mail }}\>](mailto:{{ maintainer.mail }})
+{% for name, mail in maintainers.items() %}
+* [📧 {{ name }} \<{{ mail }}\>](mailto:{{ mail }})
 {% endfor %}
 {% endif %}
 All complaints will be reviewed and investigated promptly and fairly.

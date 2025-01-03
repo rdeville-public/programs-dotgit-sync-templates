@@ -1,3 +1,4 @@
+{%- raw -%}
 {%- macro compute_authors(context, authors) %}
 {%- for version, release in context.history.released.items() %}
   {%- for _, commits in release["elements"] | dictsort %}
@@ -29,3 +30,4 @@
 {{- compute_authors(context, ns.authors) }}
 {{- print_author(ns.authors) }}
 {%- endmacro %}
+{%- endraw %}
