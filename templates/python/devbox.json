@@ -7,7 +7,7 @@
   "shell": {
     "init_hook": [
       "source \"${VENV_DIR}/bin/activate\"",
-      "./devbox/init_hook/python.sh"
+      "./.devbox/init_hook/python.sh"
     ]
   }
 }

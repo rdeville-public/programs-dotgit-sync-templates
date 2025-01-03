@@ -11,14 +11,14 @@ authors = [
   "{{ author.name }} <{{ author.mail }}>",
 {%- endfor %}
 {%- else %}
-{%- for maintainer in maintainers %}
-  "{{ maintainer.name }} <{{ maintainer.mail }}>",
+{%- for name, mail in maintainers.items() %}
+  "{{ name }} <{{ mail }}>",
 {%- endfor %}
 {%- endif %}
 ]
 maintainers = [
-{%- for maintainer in maintainers %}
-  "{{ maintainer.name }} <{{ maintainer.mail }}>",
+{%- for maintainer in maintainers.items() %}
+  "{{ name }} <{{ mail }}>",
 {%- endfor %}
 ]
 # BEGIN DOTGIT-SYNC BLOCK EXCLUDED CUSTOM_POETRY
