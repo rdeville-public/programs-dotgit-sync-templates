@@ -58,7 +58,7 @@ Conduct][CODE_OF_CONDUCT]. By participating, you are expected to uphold this
 code.
 
 Please report unacceptable behavior to :
-{% if "code_of_conduct" in extra and "abuse" in extra.code_of_conduct %}
+{%- if "code_of_conduct" in extra and "abuse" in extra.code_of_conduct %}
 * [📧 {{ extra.code_of_conduct.abuse }} \<{{ extra.code_of_conduct.abuse }}\>](mailto:{{ extra.code_of_conduct.abuse }})
 {%- else %}
 {%- for name, mail in maintainers.items() %}

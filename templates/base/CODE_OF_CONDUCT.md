@@ -61,7 +61,7 @@ representative at an online or offline event.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the community leaders responsible for enforcement at:
-{% if "code_of_conduct" in extra and abuse" in extra.code_of_conduct %}
+{% if "code_of_conduct" in extra and "abuse" in extra.code_of_conduct %}
 * [📧 {{ extra.code_of_conduct.abuse }} \<{{ extra.code_of_conduct.abuse }}\>](mailto:{{ extra.code_of_conduct.abuse }})
 {% else %}
 {% for name, mail in maintainers.items() %}
