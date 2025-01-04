@@ -1,3 +1,4 @@
+{%- raw -%}
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 {%- set ns = namespace(
@@ -23,3 +24,4 @@
 ## {{ version.as_tag() }} ({{ release.tagged_date.strftime("%Y-%m-%d") }})
 {{- fn.print_release() }}
 {% endfor %}
+{%- endraw %}

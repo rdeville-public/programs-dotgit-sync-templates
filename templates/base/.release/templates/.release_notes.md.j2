@@ -1,3 +1,4 @@
+{%- raw -%}
 ## What's Changed
 {%- set ns = namespace(
   content={
@@ -10,3 +11,4 @@
 {% import ".changelog.macros.j2" as fn with context %}
 {{- fn.recompute_commit(release["elements"]) | replace("None","") }}
 {{- fn.print_release() }}
+{%- endraw %}

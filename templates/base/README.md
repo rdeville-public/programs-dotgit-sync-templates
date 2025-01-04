@@ -1,4 +1,4 @@
-{#-<!-- markdownlint-disable-file -->-#}
+<!-- markdownlint-disable -->
 # 👋 Welcome to {{ name }}
 
 <center>
@@ -69,11 +69,11 @@ You can also take a look at the [CONTRIBUTING.md][contributing].
 [contributing]: {{ extra.repo.url }}/blob/main/CONTRIBUTING.md
 
 ## 👤 Maintainers
-{% for maintainer in maintainers %}
-* 📧 [**{{ maintainer.name }}** \<{{ maintainer.mail }}\>](mailto:{{ maintainer.mail }})
-  {%- if "maintainers" in extra and maintainer.name in extra.maintainers %}
-    {%- for maintainer_inf in extra.maintainers[maintainer.name] %}
-      {%- for key, val in extra.maintainers[maintainer.name].socials.items() %}
+{% for name, mail in maintainers.items() %}
+* 📧 [**{{ name }}** \<{{ mail }}\>](mailto:{{ mail }})
+  {%- if "maintainers" in extra and name in extra.maintainers %}
+    {%- for maintainer_inf in extra.maintainers[name] %}
+      {%- for key, val in extra.maintainers[name].socials.items() %}
   * {{ key }}: [{{ val.alt }}]({{ val.url }})
       {%- endfor %}
     {%- endfor %}
@@ -83,10 +83,13 @@ You can also take a look at the [CONTRIBUTING.md][contributing].
 ## 📝 License
 
 {% if licenses.date.first_year == licenses.date.current_year -%}
-Copyright © {{ licenses.date.current_year }} [{{ licenses.copyright.owner }}]({{ licenses.copyright.email }})
+Copyright © {{ licenses.date.current_year }}
 {%- else -%}
-Copyright © {{ licenses.date.first_year }} - {{ licenses.date.current_year }} [{{ licenses.copyright.owner }}]({{ licenses.copyright.email }})
+Copyright © {{ licenses.date.first_year }} - {{ licenses.date.current_year }}
 {%- endif %}
+{%- for name, mail in licenses.copyright.items() %}
+ * [{{ name }} \<{{ mail }}\>]({{ mail }})
+{%- endfor %}
 
 {% if "secondaries" in licenses and licenses.secondaries | length > 0 -%}
 This project is under following licenses (**OR**) :

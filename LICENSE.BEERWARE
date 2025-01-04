@@ -4,7 +4,8 @@ DotGit Sync Templates - Repository of templated files to used in combination wit
 ease management of &#34;dotfiles&#34; in git repository (such as `.gitignore`,
 `.pre-commit-config.yaml`, `LICENSE`, `packages.json`, etc.).
 
-Copyright © 2024 Romain Deville
+Copyright © 2024 - 2025
+Romain Deville
 
 Licensed under the "THE BEER-WARE LICENSE" (Revision 42):
 Romain Deville wrote this file.

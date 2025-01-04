@@ -1,5 +1,6 @@
 <!-- markdownlint-disable MD043 MD033 MD013 -->
 <!-- BEGIN DOTGIT-SYNC BLOCK MANAGED -->
+<!-- markdownlint-disable -->
 # 👋 Welcome to DotGit Sync Templates
 
 <center>
@@ -139,7 +140,8 @@ You can also take a look at the [CONTRIBUTING.md][contributing].
 
 ## 📝 License
 
-Copyright © 2024 [Romain Deville](code@romaindeville.fr)
+Copyright © 2024 - 2025
+ * [Romain Deville \<code@romaindeville.fr\>](code@romaindeville.fr)
 
 This project is under following licenses (**OR**) :
 

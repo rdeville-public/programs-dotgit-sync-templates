@@ -1,6 +1,7 @@
 # Project Specific
 .envrc*
 .devenv
+.devbox/init_hook/pre-commit.sh.log
 result
 
 # BEGIN DOTGIT-SYNC BLOCK MANAGED
