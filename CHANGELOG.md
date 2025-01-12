@@ -1,6 +1,18 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.12.12 (2025-01-12)
+
+### 🩹 Patch
+
+  * 🐛(templates/tofu): Fix .terraform-docs.yaml content (!68) by Romain Deville ([`4c6c900`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/4c6c900c2e6e7aed5b9dc162ac16a69a3ae92cb3))
+  * 🐛(templates/tofu): Fix .terraform-docs.yaml content by Romain Deville ([`57e5f00`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/57e5f006427f645eb1a361f6a15b356ab18c27a8)) 🔏
+
+### 🔊 Others
+
+  * 📝 Add CONTRIBUTING from DGS (!67) by Romain Deville ([`d31c668`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/d31c668672027faf2e8bc6f59fb025eaff0b710c))
+  * 📝 Add CONTRIBUTING from DGS by Romain Deville ([`7838166`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/78381664a2a211d3724c0531101788ea558069b7)) 🔏
+
 ## v0.12.11 (2025-01-04)
 
 ### 🩹 Patch
@@ -36,7 +48,6 @@
 ### 🔊 Others
 
   * 💚 Fix Trigger Child CI repos list by Romain Deville ([`ae2b682`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/ae2b682e2371260c902d095a6865eff51db70d73))
-  * 🔖 v0.12.10 (NO-CI) by Python Semantic Release [bot] ([`fc623cc`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/fc623cc2eebecabaa3089b1484a60327e68b4b49))
 
 ## v0.12.9 (2024-11-23)
 
@@ -46,7 +57,6 @@
 
 ### 🔊 Others
 
-  * 🔖 v0.12.9 (NO-CI) by Python Semantic Release [bot] ([`5573f74`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/5573f743361900c96163f43ec391b76f11d7d5f7))
   * 🔥(statics/base-ci-gitlab): Remove label from DGS CI Merge Request (!64) by Romain Deville ([`4037f1b`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/4037f1b8081c0ccf9301e5a0c78ca59948810e77))
   * 🔥(statics/base-ci-gitlab): Remove label from DGS CI Merge Request by Romain Deville ([`48b3a94`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/48b3a94da82b16c5d78999affc1340713b7f2c77))
 
@@ -57,10 +67,6 @@
   * ⚡️(statics/basic-ci-gitlab): Update semantic-release CI (!63) by Romain Deville ([`e013afb`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/e013afba681da30e95a8ce85d9234bc7e4ffa8ee))
   * ⚡️(statics/basic-ci-gitlab): Update semantic-release CI by Romain Deville ([`4765d6c`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/4765d6c4debbcbc83f0a8c9182b19b8ca7ef369e)) 🔏
   * 🔧 Update Gitlab semantic-release from DGS template by Romain Deville ([`cdf0c6f`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/cdf0c6f7abf4f56a087e9a4ae2b9c191837c69c0)) 🔏
-
-### 🔊 Others
-
-  * 🔖 v0.12.8 (NO-CI) by Python Semantic Release [bot] ([`e2e1c7c`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/e2e1c7c4ef0cbb6d1972b9e2245a017d75e181e4))
 
 ## v0.12.7 (2024-09-08)
 
@@ -73,7 +79,6 @@
 
   * 👷 Add terraform repos to child repo to update (!61) by Romain Deville ([`cda3dde`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/cda3dde2e9f96a4919200112893b9a05618ef5ba))
   * 👷 Add terraform repos to child repo to update by Romain Deville ([`eacb95b`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/eacb95bc8fe22fd78d79531b8df124a2dde7e068)) 🔏
-  * 🔖 v0.12.7 (NO-CI) by Python Semantic Release [bot] ([`6951a8e`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/6951a8e444b36b1fa67e377548fa020c93159db1))
 
 ## v0.12.6 (2024-09-07)
 
@@ -81,10 +86,6 @@
 
   * ⚡️(statics/opentofu): Improve terraform-docs default for empty string (!60) by Romain Deville ([`b0660a9`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/b0660a96f15cde9c92d20a165dcdc675c0b1a4a6))
   * ⚡️(statics/opentofu): Improve terraform-docs default for empty string by Romain Deville ([`10f662f`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/10f662f253c0bceed5a083ba75f69a93123ca96c)) 🔏
-
-### 🔊 Others
-
-  * 🔖 v0.12.6 (NO-CI) by Python Semantic Release [bot] ([`88f06ca`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/88f06cac4f88193442f80b9453ee0ea493fa6fb6))
 
 ## v0.12.5 (2024-09-07)
 
@@ -97,7 +98,6 @@
 
   * 💚 Fix CI trigger child to update DGS to not run recursively (!58) by Romain Deville ([`95555c7`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/95555c79ed92702ebe0e0af870558948280e4cdf))
   * 💚 Fix CI trigger child to update DGS to not run recursively by Romain Deville ([`2fc87e5`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/2fc87e57ac435318eb26fa0fd97ed40f914bc04c)) 🔏
-  * 🔖 v0.12.5 (NO-CI) by Python Semantic Release [bot] ([`eaa492e`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/eaa492e465a378aa9fce63bbf9722a106b9f90cf))
 
 ## v0.12.4 (2024-08-27)
 
@@ -114,7 +114,6 @@
   * 💚 Fix trigger CI for itself (!56) by Romain Deville ([`b615341`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/b61534143f8f7b4ce6a68bde07e1802d79a283f1))
   * 💚 Fix trigger CI for itself by Romain Deville ([`709c0b0`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/709c0b0074bac87d56888e43701b594303571ea3)) 🔏
   * 💚 Fix CI from DGS Template by Romain Deville ([`adfedb2`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/adfedb26ffb5a8459e6e64e2af6a7be68348cb0d)) 🔏
-  * 🔖 v0.12.4 (NO-CI) by Python Semantic Release [bot] ([`4e8d7b5`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/4e8d7b51487d5b441d78b85276d0c15a3b36473e))
 
 ## v0.12.3 (2024-08-26)
 
@@ -126,7 +125,6 @@
 ### 🔊 Others
 
   * 💚 Update CI from DGS by Romain Deville ([`e1c40c7`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/e1c40c77054680f2318f37cba2cb2e6fa12e16d1)) 🔏
-  * 🔖 v0.12.3 (NO-CI) by Python Semantic Release [bot] ([`3963c1a`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/3963c1a0aae730278c259b8c2994eefb3c3aa9c7))
 
 ## v0.12.2 (2024-08-25)
 
@@ -134,10 +132,6 @@
 
   * 🐛(statics/opentofu-ci-gitlab): Fix CI related to tf-docs (!53) by Romain Deville ([`8d7985f`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/8d7985f1ed76e0a5399e0ab4fbc14db701515e98))
   * 🐛(statics/opentofu-ci-gitlab): Fix CI related to tf-docs by Romain Deville ([`0dde4f2`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/0dde4f21c30421213ca162441a7ca73e431b8aeb)) 🔏
-
-### 🔊 Others
-
-  * 🔖 v0.12.2 (NO-CI) by Python Semantic Release [bot] ([`3c3ebe5`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/3c3ebe581c2d488e461bfca561c92f1d1d23c449))
 
 ## v0.12.1 (2024-08-23)
 
@@ -154,7 +148,6 @@
   * 👷(CI): Update .gitlab-ci.yaml from DGS by Romain Deville ([`20e5c64`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/20e5c64646ae54210d6ce13fe1c95e9e13f50317)) 🔏
   * 💚 Fix gitlab-ci base config and template (!52) by Romain Deville ([`875f7d7`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/875f7d71bd45bb9369d93806eae5a2e8aa0563d1))
   * 💚 Fix .gitlab-ci.yml from DGS by Romain Deville ([`ba8d1be`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/ba8d1bef86bc88fda1c3f2733656163b158b8a61)) 🔏
-  * 🔖 v0.12.1 (NO-CI) by Python Semantic Release [bot] ([`01032f6`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/01032f6cb8ba45cbe6402e957449d16a37821288))
 
 ## v0.12.0 (2024-08-23)
 
@@ -166,7 +159,6 @@
 ### 🔊 Others
 
   * 👷(statics/base-ci-gitlab): Make Gitlab CI run only on merge request by Romain Deville ([`e29a778`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/e29a7786e6d244aeea4e636ed5f6fefbb79d751f)) 🔏
-  * 🔖 v0.12.0 (NO-CI) by Python Semantic Release [bot] ([`1efc095`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/1efc095ff85dd1fa0fde831102a45c7b1c133924))
 
 ## v0.11.0 (2024-08-23)
 
@@ -179,7 +171,6 @@
 ### 🔊 Others
 
   * 👷(statics/opentofu-ci-gitlab): Add tf-docs jobs in gitlab-ci by Romain Deville ([`4a4eef2`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/4a4eef2101630b512f57962e0b0b4ddcf513ba78)) 🔏
-  * 🔖 v0.11.0 (NO-CI) by Python Semantic Release [bot] ([`6dd9d92`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/6dd9d923ab22438ac53df5de2df1673e986a42d4))
 
 ## v0.10.2 (2024-08-20)
 
@@ -187,10 +178,6 @@
 
   * 🐛(statics): Fix OpenTofu Gitlab CI template (!48) by Romain Deville ([`48b27d2`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/48b27d2cd12e29d92b261d1097ae1d17a37d8002))
   * 🐛(statics): Fix OpenTofu Gitlab CI template by Romain Deville ([`257411c`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/257411cf97ecba254e5326d758e19497cd787fb3)) 🔏
-
-### 🔊 Others
-
-  * 🔖 v0.10.2 (NO-CI) by Python Semantic Release [bot] ([`969612e`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/969612e26679451e97590252d9680d6eb0345f10))
 
 ## v0.10.1 (2024-08-20)
 
@@ -201,7 +188,6 @@
 
 ### 🔊 Others
 
-  * 🔖 v0.10.1 (NO-CI) by Python Semantic Release [bot] ([`ef089e9`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/ef089e9b86c3b871fafb3c79346e2650564e93ae))
   * 🚚(statics): Rename OpenTofu CI Gitlab folder (!46) by Romain Deville ([`097a9a2`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/097a9a23bda55f22ba6cdaad283bbf53e0ff99e4))
   * 🚚(statics): Rename OpenTofu CI Gitlab folder by Romain Deville ([`6731810`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/67318100393d68c04e08195d3086e274f5b66576))
 
@@ -223,7 +209,6 @@
   * 💚 Update CI from DGS (!43) by Romain Deville ([`82a87c4`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/82a87c44dbb3103d1417b24edae272bf9c45e787))
   * 💚 Update CI from DGS by Romain Deville ([`9a689ba`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/9a689ba60aef720af9297e2ff015f5c34f2a036b)) 🔏
   * 📝 Add Idea Improvements Section in README.md by Romain Deville ([`42a74fc`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/42a74fc46813797b6d632555bb38058eff35d8d0)) 🔏
-  * 🔖 v0.10.0 (NO-CI) by Python Semantic Release [bot] ([`3567b32`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/3567b326acb359c9201f7a26b81c1f6e5c10bcff))
 
 ## v0.9.2 (2024-07-14)
 
@@ -235,7 +220,6 @@
 ### 🔊 Others
 
   * 💚 Remove need in DGS Update CI by Romain Deville ([`2e1e281`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/2e1e281434ed23d19c02574e8cc26743da62227d)) 🔏
-  * 🔖 v0.9.2 (NO-CI) by Python Semantic Release [bot] ([`c006726`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/c006726b78f5af23140e5b4eef6a41ea1c4d5de7))
 
 ## v0.9.1 (2024-07-13)
 
@@ -248,7 +232,6 @@
 
   * 🎨(templates): Update nix-HM-module example (!39) by Romain Deville ([`32f016f`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/32f016f3291599f000b240525f7a6f3341b5028b))
   * 🎨(templates): Update nix-HM-module example by Romain Deville ([`3bbc3f8`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/3bbc3f818d771b46952469efc316124943f0cfb1)) 🔏
-  * 🔖 v0.9.1 (NO-CI) by Python Semantic Release [bot] ([`169c241`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/169c241d1441a3117ab8d8d2ffe047ba5257c500))
 
 ## v0.9.0 (2024-07-06)
 
@@ -256,10 +239,6 @@
 
   * ✨(statics): Add .envrc to base template (!38) by Romain Deville ([`45352f2`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/45352f20796e1001bf72ade6b9932853125748b8))
   * ✨(statics): Add .envrc to base template by Romain Deville ([`2bc38ab`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/2bc38ab073eabf934b477058d846e9ab40cfdb42)) 🔏
-
-### 🔊 Others
-
-  * 🔖 v0.9.0 (NO-CI) by Python Semantic Release [bot] ([`2209f48`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/2209f48f4430db5cbe5efc0668ef0471b582b82b))
 
 ## v0.8.0 (2024-07-06)
 
@@ -275,7 +254,6 @@
 
 ### 🔊 Others
 
-  * 🔖 v0.8.0 (NO-CI) by Python Semantic Release [bot] ([`1710993`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/171099348b6d6e200ec7624a7804a09360f1c337))
   * 🔨 Update .envrc from DGS template by Romain Deville ([`b86afe1`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/b86afe1a0bddc8f5033b55570ebcf0aac245d375)) 🔏
 
 ## v0.7.5 (2024-07-02)
@@ -285,20 +263,12 @@
   * ⚡️ Improve nix flake templates (!36) by Romain Deville ([`a097cb7`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/a097cb76e524d85bddd83c4f01a8470456d83920))
   * ⚡️ Improve nix flake templates by Romain Deville ([`235a356`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/235a356b1e364d50009127792ee1faab8b02b9cc)) 🔏
 
-### 🔊 Others
-
-  * 🔖 v0.7.5 (NO-CI) by Python Semantic Release [bot] ([`eb31ca6`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/eb31ca67385103efaa1d336bb56c0a066b5b24aa))
-
 ## v0.7.4 (2024-07-01)
 
 ### 🩹 Patch
 
   * 🐛(statics): Fix Python CI binutils (!35) by Romain Deville ([`b7f80fd`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/b7f80fd63283ab6b581473af70d9fec55c5059f2))
   * 🐛(statics): Fix Python CI binutils by Romain Deville ([`a680b99`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/a680b995326adc39349ba4bcb1f42b2ab0b9e123)) 🔏
-
-### 🔊 Others
-
-  * 🔖 v0.7.4 (NO-CI) by Python Semantic Release [bot] ([`4511f43`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/4511f433b286eb00bf4f3905b846b2a24b194e8d))
 
 ## v0.7.3 (2024-07-01)
 
@@ -307,20 +277,12 @@
   * 🐛(statics): Fix Python CI no publish on source pipeline (!34) by Romain Deville ([`eff7401`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/eff7401aaf31773eeecbcec21bdcd066ed9884f3))
   * 🐛(statics): Fix Python CI no publish on source pipeline by Romain Deville ([`8401572`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/8401572899d5384f835524dbe7f995ab7812942f)) 🔏
 
-### 🔊 Others
-
-  * 🔖 v0.7.3 (NO-CI) by Python Semantic Release [bot] ([`225ba4e`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/225ba4e4f0067041efbc0b7ac7316bd9725ca619))
-
 ## v0.7.2 (2024-07-01)
 
 ### 🩹 Patch
 
   * 🐛(statics): Fix Python CI no publish on source pipeline (!33) by Romain Deville ([`1ed45e9`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/1ed45e90e8a9fc2f28c0a1f2d8d94d1fca060c95))
   * 🐛(statics): Fix Python CI no publish on source pipeline by Romain Deville ([`f2702b9`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/f2702b96eeb94148b27a45ad58e1bd3abafb3963)) 🔏
-
-### 🔊 Others
-
-  * 🔖 v0.7.2 (NO-CI) by Python Semantic Release [bot] ([`53bf0bf`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/53bf0bf3ae1de99ca86dd2fc8e1aad2f597a6b26))
 
 ## v0.7.1 (2024-07-01)
 
@@ -333,7 +295,6 @@
 ### 🔊 Others
 
   * 🎨(templates): Update nix descript with indent by Romain Deville ([`10d6f2b`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/10d6f2be9f4683385e803c33924b5577606807be)) 🔏
-  * 🔖 v0.7.1 (NO-CI) by Python Semantic Release [bot] ([`2ad68bc`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/2ad68bc8aa7f0e6927e1e075160875c43855fd3c))
   * 🔥 Remove flake related file by Romain Deville ([`38139e3`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/38139e3f1ec1726b7bf6a0abd4f7f85faecd1968)) 🔏
 
 ## v0.7.0 (2024-06-27)
@@ -356,7 +317,6 @@
   * 💚 Remove constraint on main gitlab-ci tpl by Romain Deville ([`4fea91e`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/4fea91eb8ee5ca67a72009b25747c548a7c1796b)) 🔏
   * 💚 Make CI template not triggered by pipeline source by Romain Deville ([`12c7b70`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/12c7b70fddf097e11c949d477f51d8093c5901e3)) 🔏
   * 📄 Update LICENSE by Romain Deville ([`e05891c`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/e05891caaff4c02113b38d78e805b8343caf18fb)) 🔏
-  * 🔖 v0.7.0 (NO-CI) by Python Semantic Release [bot] ([`e675aa2`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/e675aa251bcab4d77a9e399a9ad76a41c7aa8ea6))
 
 ## v0.6.0 (2024-06-27)
 
@@ -381,7 +341,6 @@
   * 💚 Update CI from DGS templates by Romain Deville ([`7ea9d91`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/7ea9d91aa1a6b6ab7664642ee2d1d7c6312bf1f3)) 🔏
   * 📄 Update licenses from DGS Templates by Romain Deville ([`aa2f067`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/aa2f0674099d3555874105d7f8bc747a3168db74)) 🔏
   * 📝 Update README from DGS Templates by Romain Deville ([`a465545`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/a465545a79e99641d48028f00d439d390563a813)) 🔏
-  * 🔖 v0.6.0 (NO-CI) by Python Semantic Release [bot] ([`ce2715a`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/ce2715a71ea3cf640b657502259c6e1dab48473f))
   * 🙈 Update gitignore with nix specific files by Romain Deville ([`ba777e7`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/ba777e7ba8b3da39d8550201fb0b6ded45051491)) 🔏
 
 ## v0.5.0 (2024-06-23)
@@ -401,7 +360,6 @@
 
   * 🎨 Update statics markdown templates by Romain Deville ([`3637c9c`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/3637c9cb9f5a14752cd00645e52874a6ad876249)) 🔏
   * 👷 Update statics markdown-ci-gitlab template by Romain Deville ([`9fc14b9`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/9fc14b9ac9807e1ffd36b1b84ef3b3cdac20988a)) 🔏
-  * 🔖 v0.5.0 (NO-CI) by Python Semantic Release [bot] ([`db99d70`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/db99d707a450e538f07f8c9cbd61e14a37cb3498))
   * 🙈 Add node_modules to markdownlintignore by Romain Deville ([`e46704b`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/e46704bb1d13666967a14140fae89b74eeae6905)) 🔏
 
 ## v0.4.2 (2024-06-10)
@@ -417,7 +375,6 @@
   * 👷 Apply previous templates changes to repo by Romain Deville ([`aeb1c0a`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/aeb1c0a8fbf0460e1c97508b3e82a7020855680e)) 🔏
   * 👷 Update base CI with new sources and remove needs by Romain Deville ([`4a39ae6`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/4a39ae695fdc5aaf82e8b8be677ec1553ef6d01c)) 🔏
   * 💚 Fix typo in trigger child CI by Romain Deville ([`d5991e4`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/d5991e4338f790fff4d7133cf39825c592ca2004)) 🔏
-  * 🔖 v0.4.2 (NO-CI) by Python Semantic Release [bot] ([`0ef931f`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/0ef931ffd0a0aad450e83c954c2c1775939b65e1))
 
 ## v0.4.1 (2024-06-10)
 
@@ -425,10 +382,6 @@
 
   * ✏️ Typos in CI that trigger repos using dotgit sync: (!26) by Romain Deville ([`6e1b85f`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/6e1b85f425e32398b300d717bb9217963fda76f1))
   * ✏️ Typos in CI that trigger repos using dotgit sync: by Romain Deville ([`1012681`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/10126815d396db04de00fcb388cbfcae2100dd17)) 🔏
-
-### 🔊 Others
-
-  * 🔖 v0.4.1 (NO-CI) by Python Semantic Release [bot] ([`042c816`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/042c816be2bf9e4e8af770cd5fc80c76cf2204ef))
 
 ## v0.4.0 (2024-06-10)
 
@@ -451,7 +404,6 @@
   * 👷 Add trigger source to some CI by Romain Deville ([`70cbddd`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/70cbddd2faa9d029197009ac046032f6ae46b090)) 🔏
   * 👷(statics): Add trigger source to dotgit-sync CI by Romain Deville ([`260b3f5`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/260b3f5a78678b17bc056eb284dc3dc594ea3c07)) 🔏
   * 👷(statics): Add new pipeline sources to root CI by Romain Deville ([`6e31797`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/6e31797dcea646aa68afa83f26ac45b8c4b1b098)) 🔏
-  * 🔖 v0.4.0 (NO-CI) by Python Semantic Release [bot] ([`70de03f`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/70de03f0f8121cf3cc39df80f47bc83cf068ac4f))
   * 🔨 Remove old devbox.json config by Romain Deville ([`d9f80a7`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/d9f80a7fc53e2d6e6150331e908c731f6cc6f890)) 🔏
 
 ## v0.3.0 (2024-06-09)
@@ -474,20 +426,12 @@
   * ⬆️ Upgrade files from templates by Romain Deville ([`1ee427d`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/1ee427dd987674caea9c3486093e0128f15358c6)) 🔏
   * 🔧 Update .dotgit.yaml config by Romain Deville ([`edfe382`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/edfe38235563254f5e2970a284f7a0707df8dde9)) 🔏
 
-### 🔊 Others
-
-  * 🔖 v0.3.0 (NO-CI) by Python Semantic Release [bot] ([`cc32e13`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/cc32e13d2132ea71c3ec429c34bb6d596f37914e))
-
 ## v0.2.12 (2024-06-05)
 
 ### 🩹 Patch
 
   * ⬆️ Update templated files from dotgit-sync (!21) by Romain Deville ([`400a4e5`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/400a4e5581709772b0f503d0a202aed83bb9d11a))
   * ⬆️ Update templated files from dotgit-sync by Dotgit Sync [bot] ([`af4341e`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/af4341efbd5c4fe48a973c3ca81842c5f7d43984))
-
-### 🔊 Others
-
-  * 🔖 v0.2.12 (NO-CI) by Python Semantic Release [bot] ([`9773788`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/977378888bd51d0a1be68e2eb40c665a4a75a18e))
 
 ## v0.2.11 (2024-06-05)
 
@@ -500,7 +444,6 @@
 ### 🔊 Others
 
   * 💚 Fix Release CI by Romain Deville ([`03f5cb9`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/03f5cb9263d8d33074aa82b7ac04706fff88ab64)) 🔏
-  * 🔖 v0.2.11 (NO-CI) by Python Semantic Release [bot] ([`2376e84`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/2376e84e8c5af1b5547798bcc8d704ac6463974e))
   * 🙈 Update gitignore by Romain Deville ([`74d2eee`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/74d2eee9b60844013685b3ed2cccab938ba3d551)) 🔏
   * 🚚 Move .config.yaml to .dotgit.yaml by Romain Deville ([`507f5dc`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/507f5dc280390eaf238a65ef8bd3c56f9fab3ca6)) 🔏
 
@@ -514,7 +457,6 @@
 ### 🔊 Others
 
   * 💚 Fix git diff condition dotgit sync CI by Romain Deville ([`8a5c841`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/8a5c8416165cca5055caa1be8437312204cbb5f0)) 🔏
-  * 🔖 v0.2.10 (NO-CI) by Python Semantic Release [bot] ([`36658c1`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/36658c15a292d5edb35fbfd0b55005627441dbeb))
 
 ## v0.2.9 (2024-06-05)
 
@@ -526,7 +468,6 @@
 ### 🔊 Others
 
   * 💚 Fix dotgit-sync CI by Romain Deville ([`d3ee2e2`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/d3ee2e20935bf86e78e7e00612eb2cd80720f9b0)) 🔏
-  * 🔖 v0.2.9 (NO-CI) by Python Semantic Release [bot] ([`4c5dda6`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/4c5dda6430b1ffb6d740e7170210ac53d7ab129c))
 
 ## v0.2.8 (2024-06-04)
 
@@ -536,7 +477,6 @@
 
 ### 🔊 Others
 
-  * 🔖 v0.2.8 (NO-CI) by Python Semantic Release [bot] ([`1379502`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/13795020fe9fd044d32306ee19b21294c5b1295d))
   * 🙈 Update Gitignore after .config.yaml update by Romain Deville ([`514c187`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/514c187b6479c4c880dcdae99ce1e2dc66620d7d)) 🔏
   * 🚚 Moving templates files in new folders (!18) by Romain Deville ([`d1224ff`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/d1224ff1b48bc3fdea3668e71443e8e01554fbca))
   * 🚚(templates): Move common folder to base by Romain Deville ([`ad14174`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/ad141740a8ca14ce7861a1a90a206f7a03012ca8)) 🔏
@@ -553,7 +493,6 @@
 ### 🔊 Others
 
   * 💚 Fix dotgit sync CI condition by Romain Deville ([`acbedc4`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/acbedc4144ffbf89aa4d246ca0b16e7cf668803b)) 🔏
-  * 🔖 v0.2.7 (NO-CI) by Python Semantic Release [bot] ([`6a4a020`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/6a4a0205de14d4943c949afb0211cd55398def2a))
 
 ## v0.2.6 (2024-06-03)
 
@@ -564,10 +503,6 @@
   * ✏️ Apply typos on dotgit-sync CI by Romain Deville ([`24b753e`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/24b753e9e96b597c6d1c14ee5d94e94e375a534e)) 🔏
   * ✏️ Typo on schedule dotgit-sync CI template by Romain Deville ([`5ca9b0d`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/5ca9b0d2b7305da3423050e94e91355172aaf7aa)) 🔏
 
-### 🔊 Others
-
-  * 🔖 v0.2.6 (NO-CI) by Python Semantic Release [bot] ([`d3ce877`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/d3ce8778905430bf52f3f3af32580991a50679dd))
-
 ## v0.2.5 (2024-06-03)
 
 ### 🩹 Patch
@@ -575,10 +510,6 @@
   * ✏️ Fix typo in main CI on template and repos (!15) by Romain Deville ([`aab6e1a`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/aab6e1af2e8262ecf0b4a38ec2cb80ef09d11da3))
   * ✏️ Apply fix typo on root ci pipeline source by Romain Deville ([`bcf44f3`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/bcf44f3429ad6b9362c61411fdbf78fe64b3f86a)) 🔏
   * ✏️ Fix typo in pipeline source workflow on root ci by Romain Deville ([`bef6c19`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/bef6c19f2d64f430716f023a66ac2565020f9109)) 🔏
-
-### 🔊 Others
-
-  * 🔖 v0.2.5 (NO-CI) by Python Semantic Release [bot] ([`2c870f8`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/2c870f882d92cc248698dd71b88b560af55230b4))
 
 ## v0.2.4 (2024-06-03)
 
@@ -590,7 +521,6 @@
 
   * 💚 Fix root CI to run on scheduled pipelines (!14) by Romain Deville ([`a618fd3`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/a618fd38d487ff033368e40c83dc27809cf5f6fc))
   * 💚 Apply template update to main .gitlab-ci.yml by Romain Deville ([`dd714d9`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/dd714d970f73dae3d0d75726d47b337143397dcf))
-  * 🔖 v0.2.4 (NO-CI) by Python Semantic Release [bot] ([`5446ddb`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/5446ddb74bafc0d6b3e2cd145c2302759eb5e624))
 
 ## v0.2.3 (2024-06-03)
 
@@ -599,10 +529,6 @@
   * 🐛 Remove None output due to removing of jinja2.ext.do (!13) by Romain Deville ([`251f584`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/251f58476519b87ece32d935b9bc0ed6e62a9e96))
   * 🐛 Remove None output due to removing of jinja2.ext.do by Romain Deville ([`89dd140`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/89dd1404555ad97d711905c64d359a48a5c70888)) 🔏
 
-### 🔊 Others
-
-  * 🔖 v0.2.3 (NO-CI) by Python Semantic Release [bot] ([`984271b`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/984271b79df1f8b866e0698abc4b91ce67a10bb6))
-
 ## v0.2.2 (2024-06-03)
 
 ### 🩹 Patch
@@ -610,10 +536,6 @@
   * ✏️ Fix typo in CODE_OF_CONDUCT template and apply it (!10) by Romain Deville ([`3c43c6a`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/3c43c6a665da7de54d4aa0d95f18605836d5b7a0))
   * ✏️ Apply typo change to CODE_OF_CONDUCT by Romain Deville ([`2d5641b`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/2d5641b13842b2ddae5187a24d0cecf749cb6495))
   * ✏️ Fix typo in CODE_OF_CONDUCT template by Romain Deville ([`a9a3493`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/a9a3493ab04b76c359146524967c6ea22b722802))
-
-### 🔊 Others
-
-  * 🔖 v0.2.2 (NO-CI) by Python Semantic Release [bot] ([`823af70`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/823af70d627a793018b06f00fca64953c6f192d4))
 
 ## v0.2.1 (2024-06-03)
 
@@ -624,10 +546,6 @@
   * 🐛 Remove use of jinja2.ext.do from config by Romain Deville ([`b3ac7db`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/b3ac7dbf736740d1f38caa63d11443e9f028f1d8)) 🔏
   * 🔧 Remove jinja2.ext.do from python semantic release by Romain Deville ([`8c542d8`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/8c542d816bf7468dde80dc36318604c1662d9b51)) 🔏
   * 🔧 Apply removing jinja2.ext.do from release.toml by Romain Deville ([`cceaa23`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/cceaa231f60dfd4d7971d489fc7e0747a6e68519)) 🔏
-
-### 🔊 Others
-
-  * 🔖 v0.2.1 (NO-CI) by Python Semantic Release [bot] ([`ac07173`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/ac071736efb70f0f77c506623bac5b5cdb0e7903))
 
 ## v0.2.0 (2024-06-03)
 
@@ -646,7 +564,6 @@
 
   * 💡 Apply comment from Changelog tpl update by Romain Deville ([`060d2ee`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/060d2eef122b178c18e7079a668d8c3e138d870c)) 🔏
   * 💡 Add a comment in changelog tpl by Romain Deville ([`61591b8`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/61591b8f8c97a8e70612982dad3c092a86549699)) 🔏
-  * 🔖 v0.2.0 (NO-CI) by Python Semantic Release [bot] ([`e268eee`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/e268eee132a0a5e8057690730890a27845e35301))
 
 ## v0.1.1 (2024-06-02)
 
@@ -659,8 +576,6 @@
 ### 🔊 Others
 
   * 💚 Fix Semantic Release from template by Romain Deville ([`7dac077`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/7dac077ef7c3723f0edc3cf7237cda13059b6b53)) 🔏
-  * 🔖 v0.1.1 (NO-CI) by Python Semantic Release [bot] ([`8c13934`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/8c139342bd883a03c254f83a5f646c8f12090956))
-  * 🔖 v0.1.1 (NO-CI) by Python Semantic Release [bot] ([`eaa5858`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/eaa5858affc84ce0938b3ebca2b8f6f9c21c19da))
 
 ## v0.1.0 (2024-06-02)
 
