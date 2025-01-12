@@ -3,6 +3,7 @@ formatter: "markdown"
 version: ">= 0.18.0, < 1.0.0"
 
 content: |-
+{%- raw %}
   ## ⚙️ Module Content
 
   <details><summary>Click to reveal</summary>
@@ -239,6 +240,7 @@ output:
     {{ .Content }}
 
     <!-- END TF-DOCS -->
+{%- endraw %}
 
 output-values:
   enabled: false
