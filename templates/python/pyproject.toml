@@ -17,7 +17,7 @@ authors = [
 {%- endif %}
 ]
 maintainers = [
-{%- for maintainer in maintainers.items() %}
+{%- for name, mail in maintainers.items() %}
   "{{ name }} <{{ mail }}>",
 {%- endfor %}
 ]
