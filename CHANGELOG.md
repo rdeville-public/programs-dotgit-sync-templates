@@ -1,6 +1,13 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.12.13 (2025-02-08)
+
+### 🩹 Patch
+
+  * 🐛(tpl/python): Fix loop variables due to new .dotgit.yaml structure (!69) by Romain Deville ([`6615931`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/6615931d0bcd8fa88923bb9f971cf9c8a33b6f56))
+  * 🐛(tpl/python): Fix loop variables due to new .dotgit.yaml structure by Romain Deville ([`738f163`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/738f163a9ba013091ead82c71f73c423f8939224))
+
 ## v0.12.12 (2025-01-12)
 
 ### 🩹 Patch
