@@ -1,1 +1,0 @@
-../nix-devenv/devenv.nix
