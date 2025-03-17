@@ -1,6 +1,27 @@
 <!-- markdownlint-disable-file -->
 # CHANGELOG
 
+## v0.13.0 (2025-03-17)
+
+### ✨ Minor
+
+  * ✨ Add new templates, remove old ones, update config (!70) by Romain Deville ([`e4e73f0`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/e4e73f07f575976892f0b7619cb5321475614ee4))
+  * ✨(tpl): Add terragrunt template by Romain Deville ([`3a4f199`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/3a4f1996f8e1a69892d630d53f1d7bad8945c6aa)) 🔏
+  * ✨(tpl): Add sops template by Romain Deville ([`b5bf08b`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/b5bf08bb24c88f84d95c9417b253b71a338931cf)) 🔏
+  * ✨(tpl): Add kubernetes template by Romain Deville ([`e90cceb`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/e90cceb3a5a3f0435d7e51b72f95c5fce42eaacc)) 🔏
+  * ✨(tpl): Add helm template by Romain Deville ([`886792d`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/886792d73a2e9b13657ee277046af7cfd6d9ab20)) 🔏
+  * ✨(tpl): Add gcloud template by Romain Deville ([`9716576`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/97165767896fb6281e4e663b86ac562b4dd46073)) 🔏
+
+### 🩹 Patch
+
+  * 🐛(tpl/base-pre-commit): Update devbox script to setup pre-commit by Romain Deville ([`ac74ca5`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/ac74ca5a744c58e6a1d17dbd606e1e57500c7fef)) 🔏
+  * 🔧(dgs): Update dotgit.yaml configuration by Romain Deville ([`67acb5e`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/67acb5e97b3b91c7ed422ec00d4a6367fa6be5cf)) 🔏
+
+### 🔊 Others
+
+  * 🔥(templates): Remove nix related templates not used anymore by Romain Deville ([`862d529`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/862d5296ac87e9bf41aff8dd33bb6a7adeea6992)) 🔏
+  * 🔨 Update devbox config from DGS template by Romain Deville ([`081c7e6`](https://framagit.org/rdeville-public/programs/dotgit-sync-templates/-/commit/081c7e6c23342344525bdd3bf06cde040163bdff)) 🔏
+
 ## v0.12.13 (2025-02-08)
 
 ### 🩹 Patch
