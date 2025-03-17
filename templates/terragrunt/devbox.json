@@ -1,0 +1,5 @@
+{
+  "packages": {
+    "terragrunt": "0.73.12"
+  }
+}

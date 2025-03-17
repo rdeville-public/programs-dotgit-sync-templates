@@ -11,21 +11,17 @@ dotgit:
     #   url: https://framagit.org/rdeville-public/programs/dotgit-sync-templates
     #   ref: vX.Y.Z
   yaml:
-    merge:
+    merge: &yaml
       method: only
       only:
         - .pre-commit-config.yaml
         - gitlab-ci.yaml
-    enforce:
-      method: only
-      only:
-        - .pre-commit-config.yaml
-        - gitlab-ci.yaml
+    enforce: *yaml
+
   json:
-    merge:
+    merge: &json
       method: all
-    enforce:
-      method: all
+    enforce: *json
 
 # Repos description
 # ------------------------------------------------------------------------------
@@ -80,4 +76,3 @@ extra:
           url: https://framagit.org/rdeville
   repo:
     url: https://framagit.org/rdeville-public/programs/dotgit-sync-templates
-    slug: dotgit-sync-templates
