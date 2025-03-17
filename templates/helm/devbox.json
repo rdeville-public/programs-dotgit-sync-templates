@@ -1,0 +1,8 @@
+{
+  "packages":  {
+    "kubernetes-helm": "3.17.1",
+    "kubernetes-helmPlugins.helm-diff": "3.10.0",
+    "kubernetes-helmPlugins.helm-secrets": "4.6.2",
+    "kubernetes-helmPlugins.helm-unittest": "0.7.2"
+  }
+}
