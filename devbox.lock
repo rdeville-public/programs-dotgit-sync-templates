@@ -1,6 +1,9 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "resolved": "github:NixOS/nixpkgs/2d9e4457f8e83120c9fdf6f1707ed0bc603e5ac9?lastModified=1741462378&narHash=sha256-ZF3YOjq%2BvTcH51S%2BqWa1oGA9FgmdJ67nTNPG2OIlXDc%3D"
+    },
     "pre-commit@3.7.1": {
       "last_modified": "2024-06-06T04:00:50Z",
       "resolved": "github:NixOS/nixpkgs/818dbe2f96df233d2041739d6079bb616d3e5597#pre-commit",
